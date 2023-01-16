@@ -1,0 +1,580 @@
+CRITICAL - 2022-10-25 05:21:29 --> syntax error, unexpected '}'
+in APPPATH\Controllers\Auth.php on line 164.
+ 1 SYSTEMPATH\Router\Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('Auth')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('Auth')
+ 3 SYSTEMPATH\CodeIgniter.php(785): CodeIgniter\Router\Router->handle('Auth')
+ 4 SYSTEMPATH\CodeIgniter.php(418): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-10-25 05:22:04 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in C:\xampp\htdocs\CodeIgniter4-develop\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\CodeIgniter4-develop\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '123456', 'clinicdb', 3306, '', 0)
+#1 C:\xampp\htdocs\CodeIgniter4-develop\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\CodeIgniter4-develop\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\CodeIgniter4-develop\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\CodeIgniter4-develop\system\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\CodeIgniter4-develop\system\Validation\Validation.php(308): CodeIgniter\Validation\Rules->is_unique('hengzp2000@gmai...', 'email', Array, NULL)
+#6 C:\xampp\htdocs\CodeIgniter4-develop\system\Validation\Validation.php(175): CodeIgniter\Validation\Validation->processRules('email', 'email', 'hengzp2000@gmai...', Array, Array)
+#7 C:\xampp\htdocs\CodeIgniter4-develop\system\Controller.php(140): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\CodeIgniter4-develop\app\Controllers\Auth.php(27): CodeIgniter\Controller->validate(Array)
+#9 C:\xampp\htdocs\CodeIgniter4-develop\system\CodeIgniter.php(910): App\Controllers\Auth->save()
+#10 C:\xampp\htdocs\CodeIgniter4-develop\system\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#11 C:\xampp\htdocs\CodeIgniter4-develop\system\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\CodeIgniter4-develop\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\CodeIgniter4-develop\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\xampp\htdocs\CodeIgniter4-develop\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\CodeIgniter4-develop\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\CodeIgniter4-develop\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\CodeIgniter4-develop\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\CodeIgniter4-develop\system\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\CodeIgniter4-develop\system\Validation\Validation.php(308): CodeIgniter\Validation\Rules->is_unique('hengzp2000@gmai...', 'email', Array, NULL)
+#5 C:\xampp\htdocs\CodeIgniter4-develop\system\Validation\Validation.php(175): CodeIgniter\Validation\Validation->processRules('email', 'email', 'hengzp2000@gmai...', Array, Array)
+#6 C:\xampp\htdocs\CodeIgniter4-develop\system\Controller.php(140): CodeIgniter\Validation\Validation->run()
+#7 C:\xampp\htdocs\CodeIgniter4-develop\app\Controllers\Auth.php(27): CodeIgniter\Controller->validate(Array)
+#8 C:\xampp\htdocs\CodeIgniter4-develop\system\CodeIgniter.php(910): App\Controllers\Auth->save()
+#9 C:\xampp\htdocs\CodeIgniter4-develop\system\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#10 C:\xampp\htdocs\CodeIgniter4-develop\system\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\CodeIgniter4-develop\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\CodeIgniter4-develop\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2022-10-25 05:22:04 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `users`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\Validation\Validation.php(308): CodeIgniter\Validation\Rules->is_unique('hengzp2000@gmail.com', 'email', [...], null)
+ 5 SYSTEMPATH\Validation\Validation.php(175): CodeIgniter\Validation\Validation->processRules('email', 'email', 'hengzp2000@gmail.com', [...], [...])
+ 6 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 7 APPPATH\Controllers\Auth.php(27): CodeIgniter\Controller->validate([...])
+ 8 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Auth->save()
+ 9 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+10 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-10-25 05:24:08 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in C:\xampp\htdocs\CodeIgniter4-develop\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\CodeIgniter4-develop\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', 'fypproject', 'clinicdb', 3306, '', 0)
+#1 C:\xampp\htdocs\CodeIgniter4-develop\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\CodeIgniter4-develop\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\CodeIgniter4-develop\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\CodeIgniter4-develop\system\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\CodeIgniter4-develop\system\Validation\Validation.php(308): CodeIgniter\Validation\Rules->is_unique('hengzp2000@gmai...', 'email', Array, NULL)
+#6 C:\xampp\htdocs\CodeIgniter4-develop\system\Validation\Validation.php(175): CodeIgniter\Validation\Validation->processRules('email', 'email', 'hengzp2000@gmai...', Array, Array)
+#7 C:\xampp\htdocs\CodeIgniter4-develop\system\Controller.php(140): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\CodeIgniter4-develop\app\Controllers\Auth.php(27): CodeIgniter\Controller->validate(Array)
+#9 C:\xampp\htdocs\CodeIgniter4-develop\system\CodeIgniter.php(910): App\Controllers\Auth->save()
+#10 C:\xampp\htdocs\CodeIgniter4-develop\system\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#11 C:\xampp\htdocs\CodeIgniter4-develop\system\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\CodeIgniter4-develop\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\CodeIgniter4-develop\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\xampp\htdocs\CodeIgniter4-develop\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\CodeIgniter4-develop\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\CodeIgniter4-develop\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\CodeIgniter4-develop\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\CodeIgniter4-develop\system\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\CodeIgniter4-develop\system\Validation\Validation.php(308): CodeIgniter\Validation\Rules->is_unique('hengzp2000@gmai...', 'email', Array, NULL)
+#5 C:\xampp\htdocs\CodeIgniter4-develop\system\Validation\Validation.php(175): CodeIgniter\Validation\Validation->processRules('email', 'email', 'hengzp2000@gmai...', Array, Array)
+#6 C:\xampp\htdocs\CodeIgniter4-develop\system\Controller.php(140): CodeIgniter\Validation\Validation->run()
+#7 C:\xampp\htdocs\CodeIgniter4-develop\app\Controllers\Auth.php(27): CodeIgniter\Controller->validate(Array)
+#8 C:\xampp\htdocs\CodeIgniter4-develop\system\CodeIgniter.php(910): App\Controllers\Auth->save()
+#9 C:\xampp\htdocs\CodeIgniter4-develop\system\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#10 C:\xampp\htdocs\CodeIgniter4-develop\system\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\CodeIgniter4-develop\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\CodeIgniter4-develop\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2022-10-25 05:24:08 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `users`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\Validation\Validation.php(308): CodeIgniter\Validation\Rules->is_unique('hengzp2000@gmail.com', 'email', [...], null)
+ 5 SYSTEMPATH\Validation\Validation.php(175): CodeIgniter\Validation\Validation->processRules('email', 'email', 'hengzp2000@gmail.com', [...], [...])
+ 6 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 7 APPPATH\Controllers\Auth.php(27): CodeIgniter\Controller->validate([...])
+ 8 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Auth->save()
+ 9 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+10 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-10-25 05:24:12 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in C:\xampp\htdocs\CodeIgniter4-develop\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\CodeIgniter4-develop\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', 'fypproject', 'clinicdb', 3306, '', 0)
+#1 C:\xampp\htdocs\CodeIgniter4-develop\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\CodeIgniter4-develop\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\CodeIgniter4-develop\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\CodeIgniter4-develop\system\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\CodeIgniter4-develop\system\Validation\Validation.php(308): CodeIgniter\Validation\Rules->is_unique('hengzp2000@gmai...', 'email', Array, NULL)
+#6 C:\xampp\htdocs\CodeIgniter4-develop\system\Validation\Validation.php(175): CodeIgniter\Validation\Validation->processRules('email', 'email', 'hengzp2000@gmai...', Array, Array)
+#7 C:\xampp\htdocs\CodeIgniter4-develop\system\Controller.php(140): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\CodeIgniter4-develop\app\Controllers\Auth.php(27): CodeIgniter\Controller->validate(Array)
+#9 C:\xampp\htdocs\CodeIgniter4-develop\system\CodeIgniter.php(910): App\Controllers\Auth->save()
+#10 C:\xampp\htdocs\CodeIgniter4-develop\system\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#11 C:\xampp\htdocs\CodeIgniter4-develop\system\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\CodeIgniter4-develop\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\CodeIgniter4-develop\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\xampp\htdocs\CodeIgniter4-develop\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\CodeIgniter4-develop\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\CodeIgniter4-develop\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\CodeIgniter4-develop\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\CodeIgniter4-develop\system\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\CodeIgniter4-develop\system\Validation\Validation.php(308): CodeIgniter\Validation\Rules->is_unique('hengzp2000@gmai...', 'email', Array, NULL)
+#5 C:\xampp\htdocs\CodeIgniter4-develop\system\Validation\Validation.php(175): CodeIgniter\Validation\Validation->processRules('email', 'email', 'hengzp2000@gmai...', Array, Array)
+#6 C:\xampp\htdocs\CodeIgniter4-develop\system\Controller.php(140): CodeIgniter\Validation\Validation->run()
+#7 C:\xampp\htdocs\CodeIgniter4-develop\app\Controllers\Auth.php(27): CodeIgniter\Controller->validate(Array)
+#8 C:\xampp\htdocs\CodeIgniter4-develop\system\CodeIgniter.php(910): App\Controllers\Auth->save()
+#9 C:\xampp\htdocs\CodeIgniter4-develop\system\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#10 C:\xampp\htdocs\CodeIgniter4-develop\system\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\CodeIgniter4-develop\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\CodeIgniter4-develop\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2022-10-25 05:24:12 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `users`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\Validation\Validation.php(308): CodeIgniter\Validation\Rules->is_unique('hengzp2000@gmail.com', 'email', [...], null)
+ 5 SYSTEMPATH\Validation\Validation.php(175): CodeIgniter\Validation\Validation->processRules('email', 'email', 'hengzp2000@gmail.com', [...], [...])
+ 6 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 7 APPPATH\Controllers\Auth.php(27): CodeIgniter\Controller->validate([...])
+ 8 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Auth->save()
+ 9 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+10 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-10-25 05:24:49 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in C:\xampp\htdocs\CodeIgniter4-develop\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\CodeIgniter4-develop\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', 'fypproject', 'clinicdb', 3306, '', 0)
+#1 C:\xampp\htdocs\CodeIgniter4-develop\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\CodeIgniter4-develop\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\CodeIgniter4-develop\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\CodeIgniter4-develop\system\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\CodeIgniter4-develop\system\Validation\Validation.php(308): CodeIgniter\Validation\Rules->is_unique('hengzp2000@gmai...', 'email', Array, NULL)
+#6 C:\xampp\htdocs\CodeIgniter4-develop\system\Validation\Validation.php(175): CodeIgniter\Validation\Validation->processRules('email', 'email', 'hengzp2000@gmai...', Array, Array)
+#7 C:\xampp\htdocs\CodeIgniter4-develop\system\Controller.php(140): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\CodeIgniter4-develop\app\Controllers\Auth.php(27): CodeIgniter\Controller->validate(Array)
+#9 C:\xampp\htdocs\CodeIgniter4-develop\system\CodeIgniter.php(910): App\Controllers\Auth->save()
+#10 C:\xampp\htdocs\CodeIgniter4-develop\system\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#11 C:\xampp\htdocs\CodeIgniter4-develop\system\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\CodeIgniter4-develop\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\CodeIgniter4-develop\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\xampp\htdocs\CodeIgniter4-develop\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\CodeIgniter4-develop\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\CodeIgniter4-develop\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\CodeIgniter4-develop\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\CodeIgniter4-develop\system\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\CodeIgniter4-develop\system\Validation\Validation.php(308): CodeIgniter\Validation\Rules->is_unique('hengzp2000@gmai...', 'email', Array, NULL)
+#5 C:\xampp\htdocs\CodeIgniter4-develop\system\Validation\Validation.php(175): CodeIgniter\Validation\Validation->processRules('email', 'email', 'hengzp2000@gmai...', Array, Array)
+#6 C:\xampp\htdocs\CodeIgniter4-develop\system\Controller.php(140): CodeIgniter\Validation\Validation->run()
+#7 C:\xampp\htdocs\CodeIgniter4-develop\app\Controllers\Auth.php(27): CodeIgniter\Controller->validate(Array)
+#8 C:\xampp\htdocs\CodeIgniter4-develop\system\CodeIgniter.php(910): App\Controllers\Auth->save()
+#9 C:\xampp\htdocs\CodeIgniter4-develop\system\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#10 C:\xampp\htdocs\CodeIgniter4-develop\system\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\CodeIgniter4-develop\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\CodeIgniter4-develop\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2022-10-25 05:24:49 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `users`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\Validation\Validation.php(308): CodeIgniter\Validation\Rules->is_unique('hengzp2000@gmail.com', 'email', [...], null)
+ 5 SYSTEMPATH\Validation\Validation.php(175): CodeIgniter\Validation\Validation->processRules('email', 'email', 'hengzp2000@gmail.com', [...], [...])
+ 6 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 7 APPPATH\Controllers\Auth.php(27): CodeIgniter\Controller->validate([...])
+ 8 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Auth->save()
+ 9 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+10 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-10-25 05:26:38 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in C:\xampp\htdocs\CodeIgniter4-develop\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\CodeIgniter4-develop\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', 'fypproject', 'clinicdb', 3306, '', 0)
+#1 C:\xampp\htdocs\CodeIgniter4-develop\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\CodeIgniter4-develop\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\CodeIgniter4-develop\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\CodeIgniter4-develop\system\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\CodeIgniter4-develop\system\Validation\Validation.php(308): CodeIgniter\Validation\Rules->is_unique('hengzp2000@gmai...', 'email', Array, NULL)
+#6 C:\xampp\htdocs\CodeIgniter4-develop\system\Validation\Validation.php(175): CodeIgniter\Validation\Validation->processRules('email', 'email', 'hengzp2000@gmai...', Array, Array)
+#7 C:\xampp\htdocs\CodeIgniter4-develop\system\Controller.php(140): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\CodeIgniter4-develop\app\Controllers\Auth.php(27): CodeIgniter\Controller->validate(Array)
+#9 C:\xampp\htdocs\CodeIgniter4-develop\system\CodeIgniter.php(910): App\Controllers\Auth->save()
+#10 C:\xampp\htdocs\CodeIgniter4-develop\system\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#11 C:\xampp\htdocs\CodeIgniter4-develop\system\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\CodeIgniter4-develop\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\CodeIgniter4-develop\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\xampp\htdocs\CodeIgniter4-develop\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\CodeIgniter4-develop\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\CodeIgniter4-develop\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\CodeIgniter4-develop\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\CodeIgniter4-develop\system\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\CodeIgniter4-develop\system\Validation\Validation.php(308): CodeIgniter\Validation\Rules->is_unique('hengzp2000@gmai...', 'email', Array, NULL)
+#5 C:\xampp\htdocs\CodeIgniter4-develop\system\Validation\Validation.php(175): CodeIgniter\Validation\Validation->processRules('email', 'email', 'hengzp2000@gmai...', Array, Array)
+#6 C:\xampp\htdocs\CodeIgniter4-develop\system\Controller.php(140): CodeIgniter\Validation\Validation->run()
+#7 C:\xampp\htdocs\CodeIgniter4-develop\app\Controllers\Auth.php(27): CodeIgniter\Controller->validate(Array)
+#8 C:\xampp\htdocs\CodeIgniter4-develop\system\CodeIgniter.php(910): App\Controllers\Auth->save()
+#9 C:\xampp\htdocs\CodeIgniter4-develop\system\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#10 C:\xampp\htdocs\CodeIgniter4-develop\system\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\CodeIgniter4-develop\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\CodeIgniter4-develop\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2022-10-25 05:26:38 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `users`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\Validation\Validation.php(308): CodeIgniter\Validation\Rules->is_unique('hengzp2000@gmail.com', 'email', [...], null)
+ 5 SYSTEMPATH\Validation\Validation.php(175): CodeIgniter\Validation\Validation->processRules('email', 'email', 'hengzp2000@gmail.com', [...], [...])
+ 6 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 7 APPPATH\Controllers\Auth.php(27): CodeIgniter\Controller->validate([...])
+ 8 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Auth->save()
+ 9 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+10 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-10-25 05:27:21 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in C:\xampp\htdocs\CodeIgniter4-develop\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\CodeIgniter4-develop\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', 'fypproject', 'clinicdb', 3306, '', 0)
+#1 C:\xampp\htdocs\CodeIgniter4-develop\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\CodeIgniter4-develop\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\CodeIgniter4-develop\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\CodeIgniter4-develop\system\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\CodeIgniter4-develop\system\Validation\Validation.php(308): CodeIgniter\Validation\Rules->is_unique('hengzp2000@gmai...', 'email', Array, NULL)
+#6 C:\xampp\htdocs\CodeIgniter4-develop\system\Validation\Validation.php(175): CodeIgniter\Validation\Validation->processRules('email', 'email', 'hengzp2000@gmai...', Array, Array)
+#7 C:\xampp\htdocs\CodeIgniter4-develop\system\Controller.php(140): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\CodeIgniter4-develop\app\Controllers\Auth.php(27): CodeIgniter\Controller->validate(Array)
+#9 C:\xampp\htdocs\CodeIgniter4-develop\system\CodeIgniter.php(910): App\Controllers\Auth->save()
+#10 C:\xampp\htdocs\CodeIgniter4-develop\system\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#11 C:\xampp\htdocs\CodeIgniter4-develop\system\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\CodeIgniter4-develop\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\CodeIgniter4-develop\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\xampp\htdocs\CodeIgniter4-develop\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\CodeIgniter4-develop\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\CodeIgniter4-develop\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\CodeIgniter4-develop\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\CodeIgniter4-develop\system\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\CodeIgniter4-develop\system\Validation\Validation.php(308): CodeIgniter\Validation\Rules->is_unique('hengzp2000@gmai...', 'email', Array, NULL)
+#5 C:\xampp\htdocs\CodeIgniter4-develop\system\Validation\Validation.php(175): CodeIgniter\Validation\Validation->processRules('email', 'email', 'hengzp2000@gmai...', Array, Array)
+#6 C:\xampp\htdocs\CodeIgniter4-develop\system\Controller.php(140): CodeIgniter\Validation\Validation->run()
+#7 C:\xampp\htdocs\CodeIgniter4-develop\app\Controllers\Auth.php(27): CodeIgniter\Controller->validate(Array)
+#8 C:\xampp\htdocs\CodeIgniter4-develop\system\CodeIgniter.php(910): App\Controllers\Auth->save()
+#9 C:\xampp\htdocs\CodeIgniter4-develop\system\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#10 C:\xampp\htdocs\CodeIgniter4-develop\system\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\CodeIgniter4-develop\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\CodeIgniter4-develop\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2022-10-25 05:27:21 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `users`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\Validation\Validation.php(308): CodeIgniter\Validation\Rules->is_unique('hengzp2000@gmail.com', 'email', [...], null)
+ 5 SYSTEMPATH\Validation\Validation.php(175): CodeIgniter\Validation\Validation->processRules('email', 'email', 'hengzp2000@gmail.com', [...], [...])
+ 6 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 7 APPPATH\Controllers\Auth.php(27): CodeIgniter\Controller->validate([...])
+ 8 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Auth->save()
+ 9 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+10 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-10-25 05:27:35 --> mysqli_sql_exception: Table 'clinicdb.users' doesn't exist in C:\xampp\htdocs\CodeIgniter4-develop\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\CodeIgniter4-develop\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\xampp\htdocs\CodeIgniter4-develop\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\xampp\htdocs\CodeIgniter4-develop\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\xampp\htdocs\CodeIgniter4-develop\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\CodeIgniter4-develop\system\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\CodeIgniter4-develop\system\Validation\Validation.php(308): CodeIgniter\Validation\Rules->is_unique('hengzp2000@gmai...', 'email', Array, NULL)
+#6 C:\xampp\htdocs\CodeIgniter4-develop\system\Validation\Validation.php(175): CodeIgniter\Validation\Validation->processRules('email', 'email', 'hengzp2000@gmai...', Array, Array)
+#7 C:\xampp\htdocs\CodeIgniter4-develop\system\Controller.php(140): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\CodeIgniter4-develop\app\Controllers\Auth.php(27): CodeIgniter\Controller->validate(Array)
+#9 C:\xampp\htdocs\CodeIgniter4-develop\system\CodeIgniter.php(910): App\Controllers\Auth->save()
+#10 C:\xampp\htdocs\CodeIgniter4-develop\system\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#11 C:\xampp\htdocs\CodeIgniter4-develop\system\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\CodeIgniter4-develop\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\CodeIgniter4-develop\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2022-10-25 05:27:35 --> Table 'clinicdb.users' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT 1
+FROM `users`
+WHERE `email` = \'hengzp2000@gmail.com\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `users`
+WHERE `email` = \'hengzp2000@gmail.com\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `users`
+WHERE `email` = \'hengzp2000@gmail.com\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `users`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\Validation\Validation.php(308): CodeIgniter\Validation\Rules->is_unique('hengzp2000@gmail.com', 'email', [...], null)
+ 7 SYSTEMPATH\Validation\Validation.php(175): CodeIgniter\Validation\Validation->processRules('email', 'email', 'hengzp2000@gmail.com', [...], [...])
+ 8 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 9 APPPATH\Controllers\Auth.php(27): CodeIgniter\Controller->validate([...])
+10 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Auth->save()
+11 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+12 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-10-25 05:27:55 --> mysqli_sql_exception: Table 'clinicdb.users' doesn't exist in C:\xampp\htdocs\CodeIgniter4-develop\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\CodeIgniter4-develop\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\xampp\htdocs\CodeIgniter4-develop\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\xampp\htdocs\CodeIgniter4-develop\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\xampp\htdocs\CodeIgniter4-develop\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\CodeIgniter4-develop\system\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\CodeIgniter4-develop\system\Validation\Validation.php(308): CodeIgniter\Validation\Rules->is_unique('hengzp2000@gmai...', 'email', Array, NULL)
+#6 C:\xampp\htdocs\CodeIgniter4-develop\system\Validation\Validation.php(175): CodeIgniter\Validation\Validation->processRules('email', 'email', 'hengzp2000@gmai...', Array, Array)
+#7 C:\xampp\htdocs\CodeIgniter4-develop\system\Controller.php(140): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\CodeIgniter4-develop\app\Controllers\Auth.php(27): CodeIgniter\Controller->validate(Array)
+#9 C:\xampp\htdocs\CodeIgniter4-develop\system\CodeIgniter.php(910): App\Controllers\Auth->save()
+#10 C:\xampp\htdocs\CodeIgniter4-develop\system\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#11 C:\xampp\htdocs\CodeIgniter4-develop\system\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\CodeIgniter4-develop\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\CodeIgniter4-develop\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2022-10-25 05:27:55 --> Table 'clinicdb.users' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT 1
+FROM `users`
+WHERE `email` = \'hengzp2000@gmail.com\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `users`
+WHERE `email` = \'hengzp2000@gmail.com\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `users`
+WHERE `email` = \'hengzp2000@gmail.com\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `users`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\Validation\Validation.php(308): CodeIgniter\Validation\Rules->is_unique('hengzp2000@gmail.com', 'email', [...], null)
+ 7 SYSTEMPATH\Validation\Validation.php(175): CodeIgniter\Validation\Validation->processRules('email', 'email', 'hengzp2000@gmail.com', [...], [...])
+ 8 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 9 APPPATH\Controllers\Auth.php(27): CodeIgniter\Controller->validate([...])
+10 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Auth->save()
+11 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+12 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-10-25 05:28:02 --> mysqli_sql_exception: Table 'clinicdb.users' doesn't exist in C:\xampp\htdocs\CodeIgniter4-develop\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\CodeIgniter4-develop\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\xampp\htdocs\CodeIgniter4-develop\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\xampp\htdocs\CodeIgniter4-develop\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\xampp\htdocs\CodeIgniter4-develop\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\CodeIgniter4-develop\system\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\CodeIgniter4-develop\system\Validation\Validation.php(308): CodeIgniter\Validation\Rules->is_unique('hengzp2000@gmai...', 'email', Array, NULL)
+#6 C:\xampp\htdocs\CodeIgniter4-develop\system\Validation\Validation.php(175): CodeIgniter\Validation\Validation->processRules('email', 'email', 'hengzp2000@gmai...', Array, Array)
+#7 C:\xampp\htdocs\CodeIgniter4-develop\system\Controller.php(140): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\CodeIgniter4-develop\app\Controllers\Auth.php(27): CodeIgniter\Controller->validate(Array)
+#9 C:\xampp\htdocs\CodeIgniter4-develop\system\CodeIgniter.php(910): App\Controllers\Auth->save()
+#10 C:\xampp\htdocs\CodeIgniter4-develop\system\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#11 C:\xampp\htdocs\CodeIgniter4-develop\system\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\CodeIgniter4-develop\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\CodeIgniter4-develop\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2022-10-25 05:28:02 --> Table 'clinicdb.users' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT 1
+FROM `users`
+WHERE `email` = \'hengzp2000@gmail.com\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `users`
+WHERE `email` = \'hengzp2000@gmail.com\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `users`
+WHERE `email` = \'hengzp2000@gmail.com\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `users`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\Validation\Validation.php(308): CodeIgniter\Validation\Rules->is_unique('hengzp2000@gmail.com', 'email', [...], null)
+ 7 SYSTEMPATH\Validation\Validation.php(175): CodeIgniter\Validation\Validation->processRules('email', 'email', 'hengzp2000@gmail.com', [...], [...])
+ 8 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 9 APPPATH\Controllers\Auth.php(27): CodeIgniter\Controller->validate([...])
+10 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Auth->save()
+11 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+12 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-10-25 05:28:22 --> mysqli_sql_exception: Table 'clinicdb.users' doesn't exist in C:\xampp\htdocs\CodeIgniter4-develop\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\CodeIgniter4-develop\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\xampp\htdocs\CodeIgniter4-develop\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\xampp\htdocs\CodeIgniter4-develop\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\xampp\htdocs\CodeIgniter4-develop\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\CodeIgniter4-develop\system\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\CodeIgniter4-develop\system\Validation\Validation.php(308): CodeIgniter\Validation\Rules->is_unique('hengzp2000@gmai...', 'email', Array, NULL)
+#6 C:\xampp\htdocs\CodeIgniter4-develop\system\Validation\Validation.php(175): CodeIgniter\Validation\Validation->processRules('email', 'email', 'hengzp2000@gmai...', Array, Array)
+#7 C:\xampp\htdocs\CodeIgniter4-develop\system\Controller.php(140): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\CodeIgniter4-develop\app\Controllers\Auth.php(27): CodeIgniter\Controller->validate(Array)
+#9 C:\xampp\htdocs\CodeIgniter4-develop\system\CodeIgniter.php(910): App\Controllers\Auth->save()
+#10 C:\xampp\htdocs\CodeIgniter4-develop\system\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#11 C:\xampp\htdocs\CodeIgniter4-develop\system\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\CodeIgniter4-develop\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\CodeIgniter4-develop\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2022-10-25 05:28:22 --> Table 'clinicdb.users' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT 1
+FROM `users`
+WHERE `email` = \'hengzp2000@gmail.com\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `users`
+WHERE `email` = \'hengzp2000@gmail.com\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `users`
+WHERE `email` = \'hengzp2000@gmail.com\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `users`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\Validation\Validation.php(308): CodeIgniter\Validation\Rules->is_unique('hengzp2000@gmail.com', 'email', [...], null)
+ 7 SYSTEMPATH\Validation\Validation.php(175): CodeIgniter\Validation\Validation->processRules('email', 'email', 'hengzp2000@gmail.com', [...], [...])
+ 8 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 9 APPPATH\Controllers\Auth.php(27): CodeIgniter\Controller->validate([...])
+10 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Auth->save()
+11 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+12 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-10-25 05:28:41 --> mysqli_sql_exception: Table 'clinicdb.users' doesn't exist in C:\xampp\htdocs\CodeIgniter4-develop\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\CodeIgniter4-develop\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\xampp\htdocs\CodeIgniter4-develop\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\xampp\htdocs\CodeIgniter4-develop\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\xampp\htdocs\CodeIgniter4-develop\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\CodeIgniter4-develop\system\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\CodeIgniter4-develop\system\Validation\Validation.php(308): CodeIgniter\Validation\Rules->is_unique('hengzp2000@gmai...', 'email', Array, NULL)
+#6 C:\xampp\htdocs\CodeIgniter4-develop\system\Validation\Validation.php(175): CodeIgniter\Validation\Validation->processRules('email', 'email', 'hengzp2000@gmai...', Array, Array)
+#7 C:\xampp\htdocs\CodeIgniter4-develop\system\Controller.php(140): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\CodeIgniter4-develop\app\Controllers\Auth.php(27): CodeIgniter\Controller->validate(Array)
+#9 C:\xampp\htdocs\CodeIgniter4-develop\system\CodeIgniter.php(910): App\Controllers\Auth->save()
+#10 C:\xampp\htdocs\CodeIgniter4-develop\system\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#11 C:\xampp\htdocs\CodeIgniter4-develop\system\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\CodeIgniter4-develop\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\CodeIgniter4-develop\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2022-10-25 05:28:41 --> Table 'clinicdb.users' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT 1
+FROM `users`
+WHERE `email` = \'hengzp2000@gmail.com\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `users`
+WHERE `email` = \'hengzp2000@gmail.com\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `users`
+WHERE `email` = \'hengzp2000@gmail.com\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `users`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\Validation\Validation.php(308): CodeIgniter\Validation\Rules->is_unique('hengzp2000@gmail.com', 'email', [...], null)
+ 7 SYSTEMPATH\Validation\Validation.php(175): CodeIgniter\Validation\Validation->processRules('email', 'email', 'hengzp2000@gmail.com', [...], [...])
+ 8 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 9 APPPATH\Controllers\Auth.php(27): CodeIgniter\Controller->validate([...])
+10 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Auth->save()
+11 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+12 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-25 06:28:05 --> Argument 2 passed to CodeIgniter\Validation\Rules::is_not_unique() must be of the type string, null given, called in C:\xampp\htdocs\CodeIgniter4-develop\system\Validation\Validation.php on line 307
+in SYSTEMPATH\Validation\Rules.php on line 86.
+ 1 SYSTEMPATH\Validation\Validation.php(307): CodeIgniter\Validation\Rules->is_not_unique('email@emai.com', null)
+ 2 SYSTEMPATH\Validation\Validation.php(175): CodeIgniter\Validation\Validation->processRules('email', 'email', 'email@emai.com', [...], [...])
+ 3 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\Auth.php(160): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Auth->check()
+ 6 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 7 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-25 06:59:36 --> Call to undefined function App\Controllers\setFlashdata()
+in APPPATH\Controllers\Auth.php on line 189.
+ 1 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Auth->check()
+ 2 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 3 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-25 07:07:43 --> Use of undefined constant user_id - assumed 'user_id' (this will throw an Error in a future version of PHP)
+in APPPATH\Controllers\Auth.php on line 195.
+ 1 APPPATH\Controllers\Auth.php(195): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefined constant user_id - assumed \'user_id\' (this will throw an Error in a future version of PHP)', 'APPPATH\\Controllers\\Auth.php', 195, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Auth->check()
+ 3 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-25 07:08:03 --> Use of undefined constant user_id - assumed 'user_id' (this will throw an Error in a future version of PHP)
+in APPPATH\Controllers\Auth.php on line 195.
+ 1 APPPATH\Controllers\Auth.php(195): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefined constant user_id - assumed \'user_id\' (this will throw an Error in a future version of PHP)', 'APPPATH\\Controllers\\Auth.php', 195, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Auth->check()
+ 3 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')

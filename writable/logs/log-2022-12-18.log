@@ -1,0 +1,18 @@
+CRITICAL - 2022-12-18 14:03:17 --> cURL error 56: OpenSSL SSL_read: Connection was reset, errno 10054 (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) for https://online-clinic-demo-default-rtdb.asia-southeast1.firebasedatabase.app/queue.json
+in VENDORPATH\kreait\firebase-php\src\Firebase\Exception\DatabaseApiExceptionConverter.php on line 65.
+ 1 VENDORPATH\kreait\firebase-php\src\Firebase\Exception\DatabaseApiExceptionConverter.php(32): Kreait\Firebase\Exception\DatabaseApiExceptionConverter->convertGuzzleRequestException(Object(GuzzleHttp\Exception\RequestException))
+ 2 VENDORPATH\kreait\firebase-php\src\Firebase\Database\ApiClient.php(180): Kreait\Firebase\Exception\DatabaseApiExceptionConverter->convertException(Object(GuzzleHttp\Exception\RequestException))
+ 3 VENDORPATH\kreait\firebase-php\src\Firebase\Database\ApiClient.php(40): Kreait\Firebase\Database\ApiClient->requestApi('GET', '/queue')
+ 4 VENDORPATH\kreait\firebase-php\src\Firebase\Database\Reference.php(329): Kreait\Firebase\Database\ApiClient->get('/queue')
+ 5 VENDORPATH\kreait\firebase-php\src\Firebase\Database\Reference.php(296): Kreait\Firebase\Database\Reference->getSnapshot()
+ 6 APPPATH\Helpers\Form_helper.php(224): Kreait\Firebase\Database\Reference->getValue()
+ 7 APPPATH\Views\staff\overview.php(238): countQueue('progress', '2022-12-18')
+ 8 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\staff\\overview.php')
+ 9 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+10 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('staff/overview', [], true)
+11 APPPATH\Controllers\Queue.php(110): view('staff/overview', [...])
+12 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Queue->manage()
+13 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Queue))
+14 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+16 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')

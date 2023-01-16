@@ -1,0 +1,26 @@
+CRITICAL - 2022-12-24 10:20:53 --> Trying to access array offset on value of type bool
+in APPPATH\Controllers\Queue.php on line 123.
+ 1 APPPATH\Controllers\Queue.php(123): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type bool', 'APPPATH\\Controllers\\Queue.php', 123, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Queue->removePrescription()
+ 3 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Queue))
+ 4 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-24 10:22:57 --> Trying to access array offset on value of type bool
+in APPPATH\Controllers\Queue.php on line 123.
+ 1 APPPATH\Controllers\Queue.php(123): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type bool', 'APPPATH\\Controllers\\Queue.php', 123, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Queue->removePrescription()
+ 3 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Queue))
+ 4 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-24 10:23:06 --> syntax error, unexpected '}', expecting end of file
+in APPPATH\Views\staff\prescription.php on line 234.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('staff/prescription', [], true)
+ 3 APPPATH\Controllers\Queue.php(568): view('staff/prescription', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Queue->toBill()
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Queue))
+ 6 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')

@@ -1,0 +1,116 @@
+CRITICAL - 2022-11-27 00:59:28 --> Undefined variable: check
+in APPPATH\Controllers\Lab.php on line 16.
+ 1 APPPATH\Controllers\Lab.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: check', 'APPPATH\\Controllers\\Lab.php', 16, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Lab->add()
+ 3 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lab))
+ 4 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-27 06:09:27 --> Unable to connect to the API: cURL error 6: Could not resolve host: oauth2.googleapis.com (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) for https://oauth2.googleapis.com/token
+in VENDORPATH\kreait\firebase-php\src\Firebase\Exception\DatabaseApiExceptionConverter.php on line 36.
+ 1 VENDORPATH\kreait\firebase-php\src\Firebase\Database\ApiClient.php(180): Kreait\Firebase\Exception\DatabaseApiExceptionConverter->convertException(Object(GuzzleHttp\Exception\ConnectException))
+ 2 VENDORPATH\kreait\firebase-php\src\Firebase\Database\ApiClient.php(40): Kreait\Firebase\Database\ApiClient->requestApi('GET', 'C:\\Users')
+ 3 VENDORPATH\kreait\firebase-php\src\Firebase\Database\Reference.php(329): Kreait\Firebase\Database\ApiClient->get('C:\\Users')
+ 4 VENDORPATH\kreait\firebase-php\src\Firebase\Database\Reference.php(296): Kreait\Firebase\Database\Reference->getSnapshot()
+ 5 APPPATH\Libraries\User.php(113): Kreait\Firebase\Database\Reference->getValue()
+ 6 APPPATH\Controllers\Payment.php(118): App\Libraries\User::getUserInfoByEmail('hengzp2000@gmail.com')
+ 7 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Payment->index()
+ 8 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+ 9 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-27 06:09:35 --> Unable to connect to the API: cURL error 6: Could not resolve host: oauth2.googleapis.com (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) for https://oauth2.googleapis.com/token
+in VENDORPATH\kreait\firebase-php\src\Firebase\Exception\DatabaseApiExceptionConverter.php on line 36.
+ 1 VENDORPATH\kreait\firebase-php\src\Firebase\Database\ApiClient.php(180): Kreait\Firebase\Exception\DatabaseApiExceptionConverter->convertException(Object(GuzzleHttp\Exception\ConnectException))
+ 2 VENDORPATH\kreait\firebase-php\src\Firebase\Database\ApiClient.php(40): Kreait\Firebase\Database\ApiClient->requestApi('GET', 'C:\\Users')
+ 3 VENDORPATH\kreait\firebase-php\src\Firebase\Database\Reference.php(329): Kreait\Firebase\Database\ApiClient->get('C:\\Users')
+ 4 VENDORPATH\kreait\firebase-php\src\Firebase\Database\Reference.php(296): Kreait\Firebase\Database\Reference->getSnapshot()
+ 5 APPPATH\Libraries\User.php(113): Kreait\Firebase\Database\Reference->getValue()
+ 6 APPPATH\Controllers\Payment.php(118): App\Libraries\User::getUserInfoByEmail('hengzp2000@gmail.com')
+ 7 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Payment->index()
+ 8 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+ 9 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-27 06:47:50 --> syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+in APPPATH\Controllers\PatientLab.php on line 88.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\PatientLab.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\PatientLab')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\PatientLab')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\PatientLab')
+ 5 SYSTEMPATH\CodeIgniter.php(860): class_exists('\\App\\Controllers\\PatientLab', true)
+ 6 SYSTEMPATH\CodeIgniter.php(456): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-27 07:58:47 --> Undefined index: payment
+in APPPATH\Views\patientDashboard\patientLab.php on line 296.
+ 1 APPPATH\Views\patientDashboard\patientLab.php(296): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: payment', 'APPPATH\\Views\\patientDashboard\\patientLab.php', 296, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\patientDashboard\\patientLab.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('patientDashboard/patientLab', [], true)
+ 5 APPPATH\Controllers\PatientLab.php(86): view('patientDashboard/patientLab', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\PatientLab->lab()
+ 7 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatientLab))
+ 8 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-27 08:41:13 --> Undefined index: payment
+in APPPATH\Views\patientDashboard\patientLab.php on line 296.
+ 1 APPPATH\Views\patientDashboard\patientLab.php(296): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: payment', 'APPPATH\\Views\\patientDashboard\\patientLab.php', 296, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\patientDashboard\\patientLab.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('patientDashboard/patientLab', [], true)
+ 5 APPPATH\Controllers\PatientLab.php(86): view('patientDashboard/patientLab', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\PatientLab->lab()
+ 7 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatientLab))
+ 8 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-27 20:38:21 --> Undefined variable: database
+in APPPATH\Controllers\Home.php on line 27.
+ 1 APPPATH\Controllers\Home.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: database', 'APPPATH\\Controllers\\Home.php', 27, [])
+ 2 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Home->newsEvent()
+ 3 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-27 21:44:58 --> Undefined index: image
+in APPPATH\Controllers\NewsEvent.php on line 27.
+ 1 APPPATH\Controllers\NewsEvent.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: image', 'APPPATH\\Controllers\\NewsEvent.php', 27, [])
+ 2 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\NewsEvent->saveEvent()
+ 3 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewsEvent))
+ 4 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-27 21:45:05 --> Undefined index: image
+in APPPATH\Controllers\NewsEvent.php on line 27.
+ 1 APPPATH\Controllers\NewsEvent.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: image', 'APPPATH\\Controllers\\NewsEvent.php', 27, [])
+ 2 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\NewsEvent->saveEvent()
+ 3 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewsEvent))
+ 4 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-27 21:46:02 --> Undefined index: image
+in APPPATH\Controllers\NewsEvent.php on line 27.
+ 1 APPPATH\Controllers\NewsEvent.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: image', 'APPPATH\\Controllers\\NewsEvent.php', 27, [])
+ 2 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\NewsEvent->saveEvent()
+ 3 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewsEvent))
+ 4 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-27 23:30:37 --> Call to undefined function App\Controllers\generateRandomString()
+in APPPATH\Controllers\NewsEvent.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\NewsEvent->gogo()
+ 2 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewsEvent))
+ 3 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-27 23:49:45 --> Undefined variable: userInfo
+in APPPATH\Controllers\NewsEvent.php on line 181.
+ 1 APPPATH\Controllers\NewsEvent.php(181): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: userInfo', 'APPPATH\\Controllers\\NewsEvent.php', 181, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\NewsEvent->saveEvent()
+ 3 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewsEvent))
+ 4 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')

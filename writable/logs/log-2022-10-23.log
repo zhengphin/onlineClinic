@@ -1,0 +1,39 @@
+CRITICAL - 2022-10-23 08:50:56 --> Undefined property: App\Controllers\Auth::$validation
+in APPPATH\Controllers\Auth.php on line 64.
+ 1 APPPATH\Controllers\Auth.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Auth::$validation', 'APPPATH\\Controllers\\Auth.php', 64, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Auth->save()
+ 3 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-23 08:51:39 --> Undefined property: App\Controllers\Auth::$validation
+in APPPATH\Controllers\Auth.php on line 65.
+ 1 APPPATH\Controllers\Auth.php(65): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Auth::$validation', 'APPPATH\\Controllers\\Auth.php', 65, [])
+ 2 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Auth->save()
+ 3 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-23 08:52:15 --> Undefined property: App\Controllers\Auth::$validation2
+in APPPATH\Controllers\Auth.php on line 64.
+ 1 APPPATH\Controllers\Auth.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Auth::$validation2', 'APPPATH\\Controllers\\Auth.php', 64, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Auth->save()
+ 3 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-23 08:54:04 --> Undefined property: App\Controllers\Auth::$load
+in APPPATH\Controllers\Auth.php on line 9.
+ 1 APPPATH\Controllers\Auth.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Auth::$load', 'APPPATH\\Controllers\\Auth.php', 9, [])
+ 2 SYSTEMPATH\CodeIgniter.php(872): App\Controllers\Auth->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(460): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-23 08:54:18 --> Call to undefined function App\Controllers\library()
+in APPPATH\Controllers\Auth.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(872): App\Controllers\Auth->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(460): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')

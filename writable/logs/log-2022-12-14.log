@@ -1,0 +1,74 @@
+CRITICAL - 2022-12-14 18:26:45 --> cURL error 56: OpenSSL SSL_read: Connection was reset, errno 10054 (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) for https://oauth2.googleapis.com/token
+in VENDORPATH\kreait\firebase-php\src\Firebase\Exception\DatabaseApiExceptionConverter.php on line 65.
+ 1 VENDORPATH\kreait\firebase-php\src\Firebase\Exception\DatabaseApiExceptionConverter.php(32): Kreait\Firebase\Exception\DatabaseApiExceptionConverter->convertGuzzleRequestException(Object(GuzzleHttp\Exception\RequestException))
+ 2 VENDORPATH\kreait\firebase-php\src\Firebase\Database\ApiClient.php(180): Kreait\Firebase\Exception\DatabaseApiExceptionConverter->convertException(Object(GuzzleHttp\Exception\RequestException))
+ 3 VENDORPATH\kreait\firebase-php\src\Firebase\Database\ApiClient.php(40): Kreait\Firebase\Database\ApiClient->requestApi('GET', '/queue')
+ 4 VENDORPATH\kreait\firebase-php\src\Firebase\Database\Reference.php(329): Kreait\Firebase\Database\ApiClient->get('/queue')
+ 5 VENDORPATH\kreait\firebase-php\src\Firebase\Database\Reference.php(296): Kreait\Firebase\Database\Reference->getSnapshot()
+ 6 APPPATH\Libraries\QueueLib.php(222): Kreait\Firebase\Database\Reference->getValue()
+ 7 APPPATH\Controllers\Queue.php(103): App\Libraries\QueueLib::readDataCompleted('2022-12-14')
+ 8 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Queue->manage()
+ 9 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Queue))
+10 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-14 07:24:46 --> Undefined variable: user_info
+in APPPATH\Controllers\PatientDash.php on line 40.
+ 1 APPPATH\Controllers\PatientDash.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: user_info', 'APPPATH\\Controllers\\PatientDash.php', 40, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\PatientDash->history()
+ 3 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatientDash))
+ 4 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-14 07:25:38 --> Undefined index: patientKey
+in APPPATH\Libraries\AppointmentLib.php on line 46.
+ 1 APPPATH\Libraries\AppointmentLib.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: patientKey', 'APPPATH\\Libraries\\AppointmentLib.php', 46, [...])
+ 2 APPPATH\Controllers\PatientDash.php(57): App\Libraries\AppointmentLib::countRecordsMulti('queue', 'patientKey', '-NI58JnrgXRV70ipu9ND', 'status', 'completed')
+ 3 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\PatientDash->history()
+ 4 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatientDash))
+ 5 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-14 07:41:22 --> Unable to connect to the API: cURL error 28: Operation timed out after 15014 milliseconds with 0 out of 0 bytes received (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) for https://oauth2.googleapis.com/token
+in VENDORPATH\kreait\firebase-php\src\Firebase\Exception\DatabaseApiExceptionConverter.php on line 36.
+ 1 VENDORPATH\kreait\firebase-php\src\Firebase\Database\ApiClient.php(180): Kreait\Firebase\Exception\DatabaseApiExceptionConverter->convertException(Object(GuzzleHttp\Exception\ConnectException))
+ 2 VENDORPATH\kreait\firebase-php\src\Firebase\Database\ApiClient.php(40): Kreait\Firebase\Database\ApiClient->requestApi('GET', '/queue')
+ 3 VENDORPATH\kreait\firebase-php\src\Firebase\Database\Reference.php(329): Kreait\Firebase\Database\ApiClient->get('/queue')
+ 4 VENDORPATH\kreait\firebase-php\src\Firebase\Database\Reference.php(296): Kreait\Firebase\Database\Reference->getSnapshot()
+ 5 APPPATH\Libraries\AppointmentLib.php(40): Kreait\Firebase\Database\Reference->getValue()
+ 6 APPPATH\Controllers\PatientDash.php(53): App\Libraries\AppointmentLib::countRecordsMulti('-NI58JnrgXRV70ipu9ND')
+ 7 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\PatientDash->history()
+ 8 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatientDash))
+ 9 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-14 07:52:30 --> Undefined variable: record2
+in APPPATH\Libraries\QueueLib.php on line 370.
+ 1 APPPATH\Libraries\QueueLib.php(370): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: record2', 'APPPATH\\Libraries\\QueueLib.php', 370, [...])
+ 2 APPPATH\Controllers\PatientDash.php(97): App\Libraries\QueueLib::readQueueDataByPatientKey('queue', 1, 5, '-NI58JnrgXRV70ipu9ND')
+ 3 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\PatientDash->history()
+ 4 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatientDash))
+ 5 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-14 23:47:32 --> Unable to connect to the API: cURL error 52: Empty reply from server (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) for https://oauth2.googleapis.com/token
+in VENDORPATH\kreait\firebase-php\src\Firebase\Exception\DatabaseApiExceptionConverter.php on line 36.
+ 1 VENDORPATH\kreait\firebase-php\src\Firebase\Database\ApiClient.php(180): Kreait\Firebase\Exception\DatabaseApiExceptionConverter->convertException(Object(GuzzleHttp\Exception\ConnectException))
+ 2 VENDORPATH\kreait\firebase-php\src\Firebase\Database\ApiClient.php(40): Kreait\Firebase\Database\ApiClient->requestApi('GET', '/queue')
+ 3 VENDORPATH\kreait\firebase-php\src\Firebase\Database\Reference.php(329): Kreait\Firebase\Database\ApiClient->get('/queue')
+ 4 VENDORPATH\kreait\firebase-php\src\Firebase\Database\Reference.php(296): Kreait\Firebase\Database\Reference->getSnapshot()
+ 5 APPPATH\Libraries\QueueLib.php(603): Kreait\Firebase\Database\Reference->getValue()
+ 6 APPPATH\Controllers\Queuing.php(16): App\Libraries\QueueLib::readDataWaiting('2022-12-14')
+ 7 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Queuing->index()
+ 8 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Queuing))
+ 9 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-14 20:01:03 --> Undefined index: patientkey
+in APPPATH\Controllers\PatientDash.php on line 25.
+ 1 APPPATH\Controllers\PatientDash.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: patientkey', 'APPPATH\\Controllers\\PatientDash.php', 25, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\PatientDash->viewReceipt()
+ 3 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatientDash))
+ 4 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')

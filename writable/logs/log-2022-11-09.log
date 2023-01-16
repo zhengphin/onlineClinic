@@ -1,0 +1,47 @@
+CRITICAL - 2022-11-09 04:40:00 --> Undefined index: $field
+in APPPATH\Helpers\Form_helper.php on line 14.
+ 1 APPPATH\Helpers\Form_helper.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: $field', 'APPPATH\\Helpers\\Form_helper.php', 14, [...])
+ 2 APPPATH\Views\staff\index.php(41): countRecord('appointment', 'status', 'pending')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\staff\\index.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('staff/index', [], true)
+ 6 APPPATH\Controllers\Staff.php(517): view('staff/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Staff->home()
+ 8 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+ 9 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-09 07:08:45 --> Undefined variable: row
+in APPPATH\Views\patientDashboard\viewAppointment.php on line 150.
+ 1 APPPATH\Views\patientDashboard\viewAppointment.php(150): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: row', 'APPPATH\\Views\\patientDashboard\\viewAppointment.php', 150, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\patientDashboard\\viewAppointment.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('patientDashboard/viewAppointment', [], true)
+ 5 APPPATH\Controllers\Appointment.php(16): view('patientDashboard/viewAppointment', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Appointment->viewAppointment()
+ 7 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Appointment))
+ 8 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-09 07:35:29 --> Class 'App\Controllers\AdminLib' not found
+in APPPATH\Controllers\Appointment.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Appointment->viewAppointment()
+ 2 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Appointment))
+ 3 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-09 07:36:00 --> Undefined variable: allRecords
+in APPPATH\Controllers\Appointment.php on line 17.
+ 1 APPPATH\Controllers\Appointment.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: allRecords', 'APPPATH\\Controllers\\Appointment.php', 17, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Appointment->viewAppointment()
+ 3 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Appointment))
+ 4 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-09 07:38:14 --> Call to undefined method App\Libraries\AppointmentLib::paginationRecord()
+in APPPATH\Controllers\Appointment.php on line 38.
+ 1 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Appointment->viewAppointment()
+ 2 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Appointment))
+ 3 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')

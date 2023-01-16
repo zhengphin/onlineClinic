@@ -1,0 +1,30 @@
+CRITICAL - 2022-10-07 00:15:29 --> Invalid file: ../public/design/home.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('FCPATH\\design\\home.php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('../public/design/home', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('../public/design/home')
+ 4 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-07 00:16:47 --> Invalid file: ../public/design/home.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('FCPATH\\design\\home.php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('FCPATH\\design\\home.php', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('FCPATH\\design\\home.php')
+ 4 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-07 00:16:49 --> Invalid file: ../public/design/home.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('FCPATH\\design\\home.php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('FCPATH\\design\\home.php', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('FCPATH\\design\\home.php')
+ 4 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

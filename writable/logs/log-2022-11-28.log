@@ -1,0 +1,186 @@
+CRITICAL - 2022-11-28 10:47:03 --> date_diff() expects parameter 1 to be DateTimeInterface, string given
+in APPPATH\Controllers\NewsEvent.php on line 22.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'date_diff() expects parameter 1 to be DateTimeInterface, string given', 'APPPATH\\Controllers\\NewsEvent.php', 22, [...])
+ 2 APPPATH\Controllers\NewsEvent.php(22): date_diff('2022-11-28', '2022-12-10')
+ 3 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\NewsEvent->testing()
+ 4 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewsEvent))
+ 5 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-28 10:47:35 --> date_diff() expects parameter 1 to be DateTimeInterface, string given
+in APPPATH\Controllers\NewsEvent.php on line 23.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'date_diff() expects parameter 1 to be DateTimeInterface, string given', 'APPPATH\\Controllers\\NewsEvent.php', 23, [...])
+ 2 APPPATH\Controllers\NewsEvent.php(23): date_diff('2022-11-28', Object(DateTime))
+ 3 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\NewsEvent->testing()
+ 4 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewsEvent))
+ 5 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-28 13:48:46 --> Undefined variable: data
+in APPPATH\Controllers\NewsEvent.php on line 218.
+ 1 APPPATH\Controllers\NewsEvent.php(218): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data', 'APPPATH\\Controllers\\NewsEvent.php', 218, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\NewsEvent->saveEvent()
+ 3 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewsEvent))
+ 4 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-28 03:21:21 --> Class 'App\Controllers\AdminLib' not found
+in APPPATH\Controllers\NewsEvent.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\NewsEvent->eventManage()
+ 2 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewsEvent))
+ 3 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-28 17:21:36 --> Undefined variable: allRecords
+in APPPATH\Views\staff\eventManage.php on line 383.
+ 1 APPPATH\Views\staff\eventManage.php(383): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: allRecords', 'APPPATH\\Views\\staff\\eventManage.php', 383, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\staff\\eventManage.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('staff/eventManage', [], true)
+ 5 APPPATH\Controllers\NewsEvent.php(46): view('staff/eventManage', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\NewsEvent->eventManage()
+ 7 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewsEvent))
+ 8 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-28 17:22:12 --> Undefined variable: page
+in APPPATH\Views\staff\eventManage.php on line 386.
+ 1 APPPATH\Views\staff\eventManage.php(386): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: page', 'APPPATH\\Views\\staff\\eventManage.php', 386, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\staff\\eventManage.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('staff/eventManage', [], true)
+ 5 APPPATH\Controllers\NewsEvent.php(47): view('staff/eventManage', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\NewsEvent->eventManage()
+ 7 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewsEvent))
+ 8 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-28 17:22:38 --> Undefined variable: totoalPages
+in APPPATH\Views\staff\eventManage.php on line 402.
+ 1 APPPATH\Views\staff\eventManage.php(402): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: totoalPages', 'APPPATH\\Views\\staff\\eventManage.php', 402, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\staff\\eventManage.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('staff/eventManage', [], true)
+ 5 APPPATH\Controllers\NewsEvent.php(50): view('staff/eventManage', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\NewsEvent->eventManage()
+ 7 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewsEvent))
+ 8 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-28 05:13:57 --> syntax error, unexpected '}', expecting end of file
+in APPPATH\Views\staff\eventUpdate.php on line 42.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('staff/eventUpdate', [], true)
+ 3 APPPATH\Controllers\NewsEvent.php(194): view('staff/eventUpdate', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\NewsEvent->updateEvent()
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewsEvent))
+ 6 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-28 05:14:44 --> syntax error, unexpected '}', expecting end of file
+in APPPATH\Views\staff\eventUpdate.php on line 53.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('staff/eventUpdate', [], true)
+ 3 APPPATH\Controllers\NewsEvent.php(194): view('staff/eventUpdate', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\NewsEvent->updateEvent()
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewsEvent))
+ 6 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-28 08:47:14 --> Undefined variable: eventkey
+in APPPATH\Views\staff\eventUpdate.php on line 39.
+ 1 APPPATH\Views\staff\eventUpdate.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: eventkey', 'APPPATH\\Views\\staff\\eventUpdate.php', 39, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\staff\\eventUpdate.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('staff/eventUpdate', [], true)
+ 5 APPPATH\Controllers\NewsEvent.php(57): view('staff/eventUpdate', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\NewsEvent->uploadImageEvent()
+ 7 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewsEvent))
+ 8 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-28 08:54:18 --> Illegal string offset 'key'
+in APPPATH\Libraries\AdminLib.php on line 122.
+ 1 APPPATH\Libraries\AdminLib.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'key\'', 'APPPATH\\Libraries\\AdminLib.php', 122, [...])
+ 2 APPPATH\Controllers\NewsEvent.php(210): App\Libraries\AdminLib::paginationRecord('event', 1, 20)
+ 3 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\NewsEvent->eventManage()
+ 4 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewsEvent))
+ 5 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-28 08:54:52 --> Illegal string offset 'key'
+in APPPATH\Libraries\AdminLib.php on line 122.
+ 1 APPPATH\Libraries\AdminLib.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'key\'', 'APPPATH\\Libraries\\AdminLib.php', 122, [...])
+ 2 APPPATH\Controllers\NewsEvent.php(210): App\Libraries\AdminLib::paginationRecord('event', 1, 20)
+ 3 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\NewsEvent->eventManage()
+ 4 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewsEvent))
+ 5 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-28 08:55:39 --> Illegal string offset 'key'
+in APPPATH\Libraries\AdminLib.php on line 122.
+ 1 APPPATH\Libraries\AdminLib.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'key\'', 'APPPATH\\Libraries\\AdminLib.php', 122, [...])
+ 2 APPPATH\Controllers\NewsEvent.php(210): App\Libraries\AdminLib::paginationRecord('event', 1, 20)
+ 3 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\NewsEvent->eventManage()
+ 4 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewsEvent))
+ 5 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-28 08:55:46 --> Illegal string offset 'key'
+in APPPATH\Libraries\AdminLib.php on line 122.
+ 1 APPPATH\Libraries\AdminLib.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'key\'', 'APPPATH\\Libraries\\AdminLib.php', 122, [...])
+ 2 APPPATH\Controllers\NewsEvent.php(210): App\Libraries\AdminLib::paginationRecord('event', 1, 20)
+ 3 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\NewsEvent->eventManage()
+ 4 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewsEvent))
+ 5 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-28 08:56:13 --> Illegal string offset 'key'
+in APPPATH\Libraries\AdminLib.php on line 122.
+ 1 APPPATH\Libraries\AdminLib.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'key\'', 'APPPATH\\Libraries\\AdminLib.php', 122, [...])
+ 2 APPPATH\Controllers\NewsEvent.php(210): App\Libraries\AdminLib::paginationRecord('event', 1, 20)
+ 3 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\NewsEvent->eventManage()
+ 4 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewsEvent))
+ 5 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-28 09:01:54 --> Trying to access array offset on value of type bool
+in APPPATH\Controllers\NewsEvent.php on line 148.
+ 1 APPPATH\Controllers\NewsEvent.php(148): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type bool', 'APPPATH\\Controllers\\NewsEvent.php', 148, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\NewsEvent->handleAjaxRequestEventUpdate()
+ 3 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewsEvent))
+ 4 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-28 09:02:08 --> Trying to access array offset on value of type bool
+in APPPATH\Controllers\NewsEvent.php on line 148.
+ 1 APPPATH\Controllers\NewsEvent.php(148): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type bool', 'APPPATH\\Controllers\\NewsEvent.php', 148, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\NewsEvent->handleAjaxRequestEventUpdate()
+ 3 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewsEvent))
+ 4 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-28 09:02:29 --> Trying to access array offset on value of type bool
+in APPPATH\Controllers\NewsEvent.php on line 148.
+ 1 APPPATH\Controllers\NewsEvent.php(148): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type bool', 'APPPATH\\Controllers\\NewsEvent.php', 148, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\NewsEvent->handleAjaxRequestEventUpdate()
+ 3 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewsEvent))
+ 4 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-28 09:02:39 --> Trying to access array offset on value of type bool
+in APPPATH\Controllers\NewsEvent.php on line 148.
+ 1 APPPATH\Controllers\NewsEvent.php(148): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type bool', 'APPPATH\\Controllers\\NewsEvent.php', 148, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\NewsEvent->handleAjaxRequestEventUpdate()
+ 3 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewsEvent))
+ 4 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-28 21:25:39 --> Array to string conversion
+in APPPATH\Controllers\Staff.php on line 64.
+ 1 APPPATH\Controllers\Staff.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH\\Controllers\\Staff.php', 64, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Staff->holiday()
+ 3 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+ 4 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')

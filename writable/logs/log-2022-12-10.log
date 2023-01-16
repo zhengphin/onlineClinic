@@ -1,0 +1,312 @@
+CRITICAL - 2022-12-10 09:25:24 --> Undefined variable: ReportLib
+in APPPATH\Controllers\Staff.php on line 938.
+ 1 APPPATH\Controllers\Staff.php(938): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: ReportLib', 'APPPATH\\Controllers\\Staff.php', 938, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Staff->home()
+ 3 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+ 4 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-10 10:48:01 --> Using $this when not in object context
+in APPPATH\Libraries\ReportLib.php on line 38.
+ 1 APPPATH\Controllers\Staff.php(937): App\Libraries\ReportLib::topsalesproduct()
+ 2 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Staff->home()
+ 3 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+ 4 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-10 10:48:35 --> Call to undefined function App\Libraries\getProductItem()
+in APPPATH\Libraries\ReportLib.php on line 38.
+ 1 APPPATH\Controllers\Staff.php(937): App\Libraries\ReportLib::topsalesproduct()
+ 2 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Staff->home()
+ 3 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+ 4 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-10 10:48:58 --> Using $this when not in object context
+in APPPATH\Libraries\ReportLib.php on line 38.
+ 1 APPPATH\Controllers\Staff.php(937): App\Libraries\ReportLib::topsalesproduct()
+ 2 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Staff->home()
+ 3 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+ 4 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-10 10:49:35 --> Undefined variable: ReportLib
+in APPPATH\Libraries\ReportLib.php on line 38.
+ 1 APPPATH\Libraries\ReportLib.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: ReportLib', 'APPPATH\\Libraries\\ReportLib.php', 38, [])
+ 2 APPPATH\Controllers\Staff.php(937): App\Libraries\ReportLib::topsalesproduct()
+ 3 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Staff->home()
+ 4 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+ 5 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-10 10:50:37 --> Undefined variable: ReportLib
+in APPPATH\Libraries\ReportLib.php on line 40.
+ 1 APPPATH\Libraries\ReportLib.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: ReportLib', 'APPPATH\\Libraries\\ReportLib.php', 40, [])
+ 2 APPPATH\Controllers\Staff.php(937): App\Libraries\ReportLib::topsalesproduct()
+ 3 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Staff->home()
+ 4 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+ 5 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-10 10:51:12 --> Undefined variable: productRecord
+in APPPATH\Libraries\ReportLib.php on line 40.
+ 1 APPPATH\Libraries\ReportLib.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: productRecord', 'APPPATH\\Libraries\\ReportLib.php', 40, [...])
+ 2 APPPATH\Controllers\Staff.php(937): App\Libraries\ReportLib::topsalesproduct()
+ 3 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Staff->home()
+ 4 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+ 5 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-10 11:06:20 --> Undefined index: count
+in APPPATH\Libraries\ReportLib.php on line 56.
+ 1 APPPATH\Libraries\ReportLib.php(56): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: count', 'APPPATH\\Libraries\\ReportLib.php', 56, [...])
+ 2 APPPATH\Controllers\Staff.php(937): App\Libraries\ReportLib::topsalesproduct()
+ 3 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Staff->home()
+ 4 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+ 5 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-10 11:06:44 --> Undefined variable: productRecord
+in APPPATH\Libraries\ReportLib.php on line 61.
+ 1 APPPATH\Libraries\ReportLib.php(61): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: productRecord', 'APPPATH\\Libraries\\ReportLib.php', 61, [...])
+ 2 APPPATH\Controllers\Staff.php(937): App\Libraries\ReportLib::topsalesproduct()
+ 3 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Staff->home()
+ 4 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+ 5 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-10 11:08:04 --> Undefined variable: productRecord
+in APPPATH\Libraries\ReportLib.php on line 63.
+ 1 APPPATH\Libraries\ReportLib.php(63): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: productRecord', 'APPPATH\\Libraries\\ReportLib.php', 63, [...])
+ 2 APPPATH\Controllers\Staff.php(937): App\Libraries\ReportLib::topsalesproduct()
+ 3 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Staff->home()
+ 4 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+ 5 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-10 02:26:49 --> Undefined variable: eventkey
+in APPPATH\Views\staff\eventUpdate.php on line 22.
+ 1 APPPATH\Views\staff\eventUpdate.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: eventkey', 'APPPATH\\Views\\staff\\eventUpdate.php', 22, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\staff\\eventUpdate.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('staff/eventUpdate', [], true)
+ 5 APPPATH\Controllers\NewsEvent.php(93): view('staff/eventUpdate', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\NewsEvent->update()
+ 7 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewsEvent))
+ 8 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-10 02:34:50 --> Undefined variable: eventkey
+in APPPATH\Views\staff\eventUpdate.php on line 22.
+ 1 APPPATH\Views\staff\eventUpdate.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: eventkey', 'APPPATH\\Views\\staff\\eventUpdate.php', 22, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\staff\\eventUpdate.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('staff/eventUpdate', [], true)
+ 5 APPPATH\Controllers\NewsEvent.php(93): view('staff/eventUpdate', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\NewsEvent->update()
+ 7 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewsEvent))
+ 8 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-10 02:39:02 --> Undefined variable: eventkey
+in APPPATH\Views\staff\eventUpdate.php on line 22.
+ 1 APPPATH\Views\staff\eventUpdate.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: eventkey', 'APPPATH\\Views\\staff\\eventUpdate.php', 22, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\staff\\eventUpdate.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('staff/eventUpdate', [], true)
+ 5 APPPATH\Controllers\NewsEvent.php(93): view('staff/eventUpdate', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\NewsEvent->update()
+ 7 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewsEvent))
+ 8 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-10 17:00:59 --> Undefined index: payment
+in APPPATH\Libraries\ReportLib.php on line 167.
+ 1 APPPATH\Libraries\ReportLib.php(167): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: payment', 'APPPATH\\Libraries\\ReportLib.php', 167, [...])
+ 2 APPPATH\Controllers\Staff.php(930): App\Libraries\ReportLib::totalOnlineConsultationRevenue()
+ 3 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Staff->home()
+ 4 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+ 5 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-10 17:01:33 --> Undefined index: payment
+in APPPATH\Libraries\ReportLib.php on line 167.
+ 1 APPPATH\Libraries\ReportLib.php(167): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: payment', 'APPPATH\\Libraries\\ReportLib.php', 167, [...])
+ 2 APPPATH\Controllers\Staff.php(930): App\Libraries\ReportLib::totalOnlineConsultationRevenue()
+ 3 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Staff->home()
+ 4 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+ 5 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-10 17:03:51 --> Trying to access array offset on value of type null
+in APPPATH\Views\layout\staffdashboard-layout.php on line 44.
+ 1 APPPATH\Views\layout\staffdashboard-layout.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\layout\\staffdashboard-layout.php', 44, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\staffdashboard-layout.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/staffdashboard-layout', [], true)
+ 5 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('staff/index', [], true)
+ 6 APPPATH\Controllers\Staff.php(941): view('staff/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Staff->home()
+ 8 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+ 9 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-10 17:04:18 --> Trying to access array offset on value of type null
+in APPPATH\Views\layout\staffdashboard-layout.php on line 44.
+ 1 APPPATH\Views\layout\staffdashboard-layout.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\layout\\staffdashboard-layout.php', 44, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\staffdashboard-layout.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/staffdashboard-layout', [], true)
+ 5 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('staff/index', [], true)
+ 6 APPPATH\Controllers\Staff.php(941): view('staff/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Staff->home()
+ 8 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+ 9 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-10 17:04:37 --> Trying to access array offset on value of type null
+in APPPATH\Views\layout\staffdashboard-layout.php on line 44.
+ 1 APPPATH\Views\layout\staffdashboard-layout.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\layout\\staffdashboard-layout.php', 44, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\staffdashboard-layout.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/staffdashboard-layout', [], true)
+ 5 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('staff/index', [], true)
+ 6 APPPATH\Controllers\Staff.php(941): view('staff/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Staff->home()
+ 8 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+ 9 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-10 05:45:12 --> Undefined variable: pData
+in APPPATH\Views\staff\prescription.php on line 60.
+ 1 APPPATH\Views\staff\prescription.php(60): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: pData', 'APPPATH\\Views\\staff\\prescription.php', 60, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\staff\\prescription.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('staff/prescription', [], true)
+ 5 APPPATH\Controllers\Queue.php(570): view('staff/prescription', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Queue->toBill()
+ 7 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Queue))
+ 8 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-10 19:54:44 --> Undefined index: reason
+in APPPATH\Views\staff\consult.php on line 158.
+ 1 APPPATH\Views\staff\consult.php(158): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: reason', 'APPPATH\\Views\\staff\\consult.php', 158, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\staff\\consult.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('staff/consult', [], true)
+ 5 APPPATH\Controllers\Staff.php(378): view('staff/consult', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Staff->consult()
+ 7 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+ 8 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-10 19:55:44 --> Undefined index: reason
+in APPPATH\Views\staff\consult.php on line 158.
+ 1 APPPATH\Views\staff\consult.php(158): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: reason', 'APPPATH\\Views\\staff\\consult.php', 158, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\staff\\consult.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('staff/consult', [], true)
+ 5 APPPATH\Controllers\Staff.php(378): view('staff/consult', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Staff->consult()
+ 7 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+ 8 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-10 20:04:24 --> Illegal string offset 'mode'
+in APPPATH\Libraries\ConsultLib.php on line 133.
+ 1 APPPATH\Libraries\ConsultLib.php(133): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'mode\'', 'APPPATH\\Libraries\\ConsultLib.php', 133, [...])
+ 2 APPPATH\Controllers\Staff.php(349): App\Libraries\ConsultLib::readAllDataToday(1, 5)
+ 3 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Staff->consult()
+ 4 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+ 5 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-10 20:07:05 --> Illegal string offset 'mode'
+in APPPATH\Libraries\ConsultLib.php on line 133.
+ 1 APPPATH\Libraries\ConsultLib.php(133): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'mode\'', 'APPPATH\\Libraries\\ConsultLib.php', 133, [...])
+ 2 APPPATH\Controllers\Staff.php(349): App\Libraries\ConsultLib::readAllDataToday(1, 5)
+ 3 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Staff->consult()
+ 4 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+ 5 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-10 20:07:55 --> Illegal string offset 'mode'
+in APPPATH\Libraries\ReportLib.php on line 165.
+ 1 APPPATH\Libraries\ReportLib.php(165): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'mode\'', 'APPPATH\\Libraries\\ReportLib.php', 165, [...])
+ 2 APPPATH\Controllers\Staff.php(930): App\Libraries\ReportLib::totalOnlineConsultationRevenue()
+ 3 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Staff->home()
+ 4 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+ 5 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-10 20:10:41 --> Illegal string offset 'mode'
+in APPPATH\Libraries\ConsultLib.php on line 133.
+ 1 APPPATH\Libraries\ConsultLib.php(133): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'mode\'', 'APPPATH\\Libraries\\ConsultLib.php', 133, [...])
+ 2 APPPATH\Controllers\Staff.php(349): App\Libraries\ConsultLib::readAllDataToday(1, 5)
+ 3 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Staff->consult()
+ 4 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+ 5 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-10 20:10:48 --> Illegal string offset 'mode'
+in APPPATH\Libraries\ConsultLib.php on line 133.
+ 1 APPPATH\Libraries\ConsultLib.php(133): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'mode\'', 'APPPATH\\Libraries\\ConsultLib.php', 133, [...])
+ 2 APPPATH\Controllers\Staff.php(349): App\Libraries\ConsultLib::readAllDataToday(1, 5)
+ 3 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Staff->consult()
+ 4 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+ 5 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-10 20:20:16 --> Undefined index: mode
+in APPPATH\Libraries\ConsultLib.php on line 133.
+ 1 APPPATH\Libraries\ConsultLib.php(133): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: mode', 'APPPATH\\Libraries\\ConsultLib.php', 133, [...])
+ 2 APPPATH\Controllers\Staff.php(349): App\Libraries\ConsultLib::readAllDataToday(1, 5)
+ 3 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Staff->consult()
+ 4 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+ 5 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-10 20:23:08 --> Illegal string offset 'mode'
+in APPPATH\Libraries\ConsultLib.php on line 133.
+ 1 APPPATH\Libraries\ConsultLib.php(133): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'mode\'', 'APPPATH\\Libraries\\ConsultLib.php', 133, [...])
+ 2 APPPATH\Controllers\Staff.php(354): App\Libraries\ConsultLib::readAllDataToday(1, 5)
+ 3 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Staff->consult()
+ 4 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+ 5 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-10 20:24:49 --> Illegal string offset 'mode'
+in APPPATH\Libraries\ConsultLib.php on line 133.
+ 1 APPPATH\Libraries\ConsultLib.php(133): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'mode\'', 'APPPATH\\Libraries\\ConsultLib.php', 133, [...])
+ 2 APPPATH\Controllers\Staff.php(354): App\Libraries\ConsultLib::readAllDataToday(1, 5)
+ 3 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Staff->consult()
+ 4 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+ 5 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-10 06:27:11 --> Undefined variable: postRef_result2
+in APPPATH\Controllers\Staff.php on line 227.
+ 1 APPPATH\Controllers\Staff.php(227): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: postRef_result2', 'APPPATH\\Controllers\\Staff.php', 227, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Staff->close()
+ 3 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+ 4 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-10 20:27:30 --> Illegal string offset 'mode'
+in APPPATH\Libraries\ConsultLib.php on line 133.
+ 1 APPPATH\Libraries\ConsultLib.php(133): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'mode\'', 'APPPATH\\Libraries\\ConsultLib.php', 133, [...])
+ 2 APPPATH\Controllers\Staff.php(352): App\Libraries\ConsultLib::readAllDataToday(1, 5)
+ 3 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Staff->consult()
+ 4 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+ 5 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-10 06:39:02 --> Undefined variable: labData
+in APPPATH\Controllers\Staff.php on line 223.
+ 1 APPPATH\Controllers\Staff.php(223): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: labData', 'APPPATH\\Controllers\\Staff.php', 223, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Staff->close()
+ 3 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+ 4 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')

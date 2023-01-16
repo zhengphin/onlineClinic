@@ -1,0 +1,91 @@
+CRITICAL - 2022-12-20 18:40:27 --> Undefined variable: record2
+in APPPATH\Libraries\PatientLib.php on line 197.
+ 1 APPPATH\Libraries\PatientLib.php(197): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: record2', 'APPPATH\\Libraries\\PatientLib.php', 197, [...])
+ 2 APPPATH\Controllers\Patient.php(548): App\Libraries\PatientLib::readData(11, 24)
+ 3 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Patient->view()
+ 4 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Patient))
+ 5 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-12-20 21:23:08 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): unable to connect to tls://smtp.gmail.com:465 (A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+) in C:\xampp\htdocs\CodeIgniter4-develop\system\Email\Email.php:1850
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): un...', 'C:\\xampp\\htdocs...', 1850, Array)
+#1 C:\xampp\htdocs\CodeIgniter4-develop\system\Email\Email.php(1850): fsockopen('tls://smtp.gmai...', 465, 10060, 'A connection at...', 20)
+#2 C:\xampp\htdocs\CodeIgniter4-develop\system\Email\Email.php(1764): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\CodeIgniter4-develop\system\Email\Email.php(1654): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\CodeIgniter4-develop\system\Email\Email.php(1552): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\CodeIgniter4-develop\app\Controllers\Staff.php(479): CodeIgniter\Email\Email->send()
+#6 C:\xampp\htdocs\CodeIgniter4-develop\system\CodeIgniter.php(910): App\Controllers\Staff->updateStatus()
+#7 C:\xampp\htdocs\CodeIgniter4-develop\system\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+#8 C:\xampp\htdocs\CodeIgniter4-develop\system\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\CodeIgniter4-develop\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\CodeIgniter4-develop\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-12-20 21:25:15 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): unable to connect to tls://smtp.gmail.com:465 (A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+) in C:\xampp\htdocs\CodeIgniter4-develop\system\Email\Email.php:1850
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): un...', 'C:\\xampp\\htdocs...', 1850, Array)
+#1 C:\xampp\htdocs\CodeIgniter4-develop\system\Email\Email.php(1850): fsockopen('tls://smtp.gmai...', 465, 10060, 'A connection at...', 20)
+#2 C:\xampp\htdocs\CodeIgniter4-develop\system\Email\Email.php(1764): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\CodeIgniter4-develop\system\Email\Email.php(1654): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\CodeIgniter4-develop\system\Email\Email.php(1552): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\CodeIgniter4-develop\app\Controllers\Staff.php(515): CodeIgniter\Email\Email->send()
+#6 C:\xampp\htdocs\CodeIgniter4-develop\system\CodeIgniter.php(910): App\Controllers\Staff->updateStatus()
+#7 C:\xampp\htdocs\CodeIgniter4-develop\system\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+#8 C:\xampp\htdocs\CodeIgniter4-develop\system\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\CodeIgniter4-develop\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\CodeIgniter4-develop\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-12-20 22:56:59 --> syntax error, unexpected '}'
+in APPPATH\Views\patientDashboard\number.php on line 133.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('patientDashboard/number', [], true)
+ 3 APPPATH\Controllers\PatientDash.php(127): view('patientDashboard/number', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\PatientDash->number()
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatientDash))
+ 6 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-20 22:57:04 --> syntax error, unexpected '}'
+in APPPATH\Views\patientDashboard\number.php on line 133.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('patientDashboard/number', [], true)
+ 3 APPPATH\Controllers\PatientDash.php(127): view('patientDashboard/number', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\PatientDash->number()
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatientDash))
+ 6 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-20 22:57:09 --> syntax error, unexpected '}'
+in APPPATH\Views\patientDashboard\number.php on line 133.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('patientDashboard/number', [], true)
+ 3 APPPATH\Controllers\PatientDash.php(127): view('patientDashboard/number', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\PatientDash->number()
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatientDash))
+ 6 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-20 22:58:26 --> syntax error, unexpected '<'
+in APPPATH\Views\patientDashboard\number.php on line 137.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('patientDashboard/number', [], true)
+ 3 APPPATH\Controllers\PatientDash.php(127): view('patientDashboard/number', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\PatientDash->number()
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatientDash))
+ 6 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-20 22:58:59 --> Use of undefined constant Invalid - assumed 'Invalid' (this will throw an Error in a future version of PHP)
+in APPPATH\Views\patientDashboard\number.php on line 137.
+ 1 APPPATH\Views\patientDashboard\number.php(137): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefined constant Invalid - assumed \'Invalid\' (this will throw an Error in a future version of PHP)', 'APPPATH\\Views\\patientDashboard\\number.php', 137, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\patientDashboard\\number.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('patientDashboard/number', [], true)
+ 5 APPPATH\Controllers\PatientDash.php(127): view('patientDashboard/number', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\PatientDash->number()
+ 7 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatientDash))
+ 8 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')

@@ -1,0 +1,268 @@
+CRITICAL - 2022-11-06 00:20:06 --> array_push() expects parameter 1 to be array, null given
+in APPPATH\Libraries\AdminLib.php on line 84.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_push() expects parameter 1 to be array, null given', 'APPPATH\\Libraries\\AdminLib.php', 84, [...])
+ 2 APPPATH\Libraries\AdminLib.php(84): array_push(null, [...])
+ 3 APPPATH\Controllers\Admin.php(13): App\Libraries\AdminLib::paginationRecord('staff', 1, 3)
+ 4 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Admin->pagination()
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 00:20:38 --> Unsupported operand types
+in APPPATH\Libraries\AdminLib.php on line 84.
+ 1 APPPATH\Controllers\Admin.php(13): App\Libraries\AdminLib::paginationRecord('staff', 1, 3)
+ 2 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Admin->pagination()
+ 3 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 00:22:27 --> syntax error, unexpected '}'
+in APPPATH\Libraries\AdminLib.php on line 85.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Libraries\\AdminLib.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Libraries\\AdminLib')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Libraries\\AdminLib')
+ 4 APPPATH\Controllers\Admin.php(13): spl_autoload_call('App\\Libraries\\AdminLib')
+ 5 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Admin->pagination()
+ 6 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 00:23:34 --> Undefined offset: 0
+in APPPATH\Libraries\AdminLib.php on line 84.
+ 1 APPPATH\Libraries\AdminLib.php(84): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 0', 'APPPATH\\Libraries\\AdminLib.php', 84, [...])
+ 2 APPPATH\Controllers\Admin.php(13): App\Libraries\AdminLib::paginationRecord('staff', 1, 3)
+ 3 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Admin->pagination()
+ 4 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 00:23:49 --> Undefined offset: 1
+in APPPATH\Libraries\AdminLib.php on line 84.
+ 1 APPPATH\Libraries\AdminLib.php(84): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 1', 'APPPATH\\Libraries\\AdminLib.php', 84, [...])
+ 2 APPPATH\Controllers\Admin.php(13): App\Libraries\AdminLib::paginationRecord('staff', 1, 3)
+ 3 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Admin->pagination()
+ 4 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 00:38:38 --> orderBy must be defined when other query parameters are defined
+in VENDORPATH\kreait\firebase-php\src\Firebase\Database\Query.php on line 92.
+ 1 VENDORPATH\kreait\firebase-php\src\Firebase\Database\Query.php(115): Kreait\Firebase\Database\Query->getSnapshot()
+ 2 APPPATH\Libraries\AdminLib.php(76): Kreait\Firebase\Database\Query->getValue()
+ 3 APPPATH\Controllers\Admin.php(13): App\Libraries\AdminLib::paginationRecord('staff', 1, 3)
+ 4 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Admin->pagination()
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 00:38:51 --> Object of class Kreait\Firebase\Database\Query could not be converted to int
+in APPPATH\Libraries\AdminLib.php on line 77.
+ 1 APPPATH\Libraries\AdminLib.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Object of class Kreait\\Firebase\\Database\\Query could not be converted to int', 'APPPATH\\Libraries\\AdminLib.php', 77, [...])
+ 2 APPPATH\Controllers\Admin.php(13): App\Libraries\AdminLib::paginationRecord('staff', 1, 3)
+ 3 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Admin->pagination()
+ 4 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 00:38:59 --> Call to a member function startAt() on array
+in APPPATH\Libraries\AdminLib.php on line 76.
+ 1 APPPATH\Controllers\Admin.php(13): App\Libraries\AdminLib::paginationRecord('staff', 1, 3)
+ 2 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Admin->pagination()
+ 3 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 00:39:10 --> Call to a member function startAt() on array
+in APPPATH\Libraries\AdminLib.php on line 76.
+ 1 APPPATH\Controllers\Admin.php(13): App\Libraries\AdminLib::paginationRecord('staff', 1, 3)
+ 2 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Admin->pagination()
+ 3 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 00:48:38 --> Call to a member function startAt() on array
+in APPPATH\Libraries\AdminLib.php on line 82.
+ 1 APPPATH\Controllers\Admin.php(13): App\Libraries\AdminLib::paginationRecord('staff', 1, 3)
+ 2 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Admin->pagination()
+ 3 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 00:56:26 --> Undefined variable: tablename
+in APPPATH\Controllers\Admin.php on line 18.
+ 1 APPPATH\Controllers\Admin.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: tablename', 'APPPATH\\Controllers\\Admin.php', 18, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Admin->pagination()
+ 3 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 01:01:21 --> Use of undefined constant key - assumed 'key' (this will throw an Error in a future version of PHP)
+in APPPATH\Controllers\Admin.php on line 26.
+ 1 APPPATH\Controllers\Admin.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefined constant key - assumed \'key\' (this will throw an Error in a future version of PHP)', 'APPPATH\\Controllers\\Admin.php', 26, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Admin->pagination()
+ 3 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 01:03:19 --> Unsupported operand types
+in APPPATH\Controllers\Admin.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Admin->pagination()
+ 2 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 01:04:14 --> Unsupported operand types
+in APPPATH\Controllers\Admin.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Admin->pagination()
+ 2 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 01:34:34 --> Undefined index: -NGAJsIT0PwahLjGJe7w
+in APPPATH\Controllers\Admin.php on line 39.
+ 1 APPPATH\Controllers\Admin.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: -NGAJsIT0PwahLjGJe7w', 'APPPATH\\Controllers\\Admin.php', 39, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Admin->pagination()
+ 3 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 01:34:44 --> Cannot use [] for reading
+in APPPATH\Controllers\Admin.php on line 39.
+ 1 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Admin->pagination()
+ 2 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 01:36:50 --> syntax error, unexpected '{'
+in APPPATH\Controllers\Admin.php on line 33.
+ 1 SYSTEMPATH\Router\Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('Admin/pagination')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('Admin/pagination')
+ 3 SYSTEMPATH\CodeIgniter.php(785): CodeIgniter\Router\Router->handle('Admin/pagination')
+ 4 SYSTEMPATH\CodeIgniter.php(418): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 01:36:59 --> Undefined offset: 0
+in APPPATH\Controllers\Admin.php on line 39.
+ 1 APPPATH\Controllers\Admin.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 0', 'APPPATH\\Controllers\\Admin.php', 39, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Admin->pagination()
+ 3 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 01:58:30 --> Index not defined, add ".indexOn": "createdDatenTime", for path "/staff", to the rules
+in VENDORPATH\kreait\firebase-php\src\Firebase\Database\Query.php on line 92.
+ 1 VENDORPATH\kreait\firebase-php\src\Firebase\Database\Query.php(115): Kreait\Firebase\Database\Query->getSnapshot()
+ 2 APPPATH\Libraries\AdminLib.php(77): Kreait\Firebase\Database\Query->getValue()
+ 3 APPPATH\Controllers\Admin.php(421): App\Libraries\AdminLib::paginationRecord('staff', 1, 3)
+ 4 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Admin->manage()
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 01:59:43 --> Index not defined, add ".indexOn": "createdDatenTime", for path "/staff", to the rules
+in VENDORPATH\kreait\firebase-php\src\Firebase\Database\Query.php on line 92.
+ 1 VENDORPATH\kreait\firebase-php\src\Firebase\Database\Query.php(115): Kreait\Firebase\Database\Query->getSnapshot()
+ 2 APPPATH\Libraries\AdminLib.php(77): Kreait\Firebase\Database\Query->getValue()
+ 3 APPPATH\Controllers\Admin.php(421): App\Libraries\AdminLib::paginationRecord('staff', 1, 3)
+ 4 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Admin->manage()
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 01:59:47 --> Index not defined, add ".indexOn": "createdDatenTime", for path "/staff", to the rules
+in VENDORPATH\kreait\firebase-php\src\Firebase\Database\Query.php on line 92.
+ 1 VENDORPATH\kreait\firebase-php\src\Firebase\Database\Query.php(115): Kreait\Firebase\Database\Query->getSnapshot()
+ 2 APPPATH\Libraries\AdminLib.php(77): Kreait\Firebase\Database\Query->getValue()
+ 3 APPPATH\Controllers\Admin.php(421): App\Libraries\AdminLib::paginationRecord('staff', 1, 3)
+ 4 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Admin->manage()
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 02:03:27 --> Syntax error at character 0
+.createdDatenTime
+^
+Unexpected "dot" token (nud_dot). Expected one of the following tokens: "identifier", "quoted_identifier", "current", "literal", "expref", "not", "lparen", "lbrace", "flatten", "filter", "star", "lbracket"
+in VENDORPATH\mtdowling\jmespath.php\src\Parser.php on line 466.
+ 1 VENDORPATH\mtdowling\jmespath.php\src\Parser.php(514): JmesPath\Parser->syntax('Unexpected "dot" token (nud_dot). Expected one of the following tokens: "identifier", "quoted_identifier", "current", "literal", "expref", "not", "lparen", "lbrace", "flatten", "filter", "star", "lbracket"')
+ 2 VENDORPATH\mtdowling\jmespath.php\src\Parser.php(97): JmesPath\Parser->__call('nud_dot', [])
+ 3 VENDORPATH\mtdowling\jmespath.php\src\Parser.php(79): JmesPath\Parser->expr()
+ 4 VENDORPATH\mtdowling\jmespath.php\src\AstRuntime.php(42): JmesPath\Parser->parse('.createdDatenTime')
+ 5 VENDORPATH\mtdowling\jmespath.php\src\Env.php(33): JmesPath\AstRuntime->__invoke('.createdDatenTime', [...])
+ 6 VENDORPATH\mtdowling\jmespath.php\src\JmesPath.php(15): JmesPath\Env::search('.createdDatenTime', [...])
+ 7 VENDORPATH\kreait\firebase-php\src\Firebase\Database\Query\Sorter\OrderByChild.php(40): JmesPath\search('.createdDatenTime', [...])
+ 8 [internal function]: Kreait\Firebase\Database\Query\Sorter\OrderByChild::Kreait\Firebase\Database\Query\Sorter\{closure}([...], [...])
+ 9 VENDORPATH\kreait\firebase-php\src\Firebase\Database\Query\Sorter\OrderByChild.php(40): uasort([...], Object(Closure))
+10 VENDORPATH\kreait\firebase-php\src\Firebase\Database\Query.php(96): Kreait\Firebase\Database\Query\Sorter\OrderByChild->modifyValue([...])
+11 VENDORPATH\kreait\firebase-php\src\Firebase\Database\Query.php(115): Kreait\Firebase\Database\Query->getSnapshot()
+12 APPPATH\Libraries\AdminLib.php(77): Kreait\Firebase\Database\Query->getValue()
+13 APPPATH\Controllers\Admin.php(421): App\Libraries\AdminLib::paginationRecord('staff', 1, 3)
+14 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Admin->manage()
+15 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+16 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+18 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 02:05:16 --> Index not defined, add ".indexOn": "createdDatenTime", for path "/staff", to the rules
+in VENDORPATH\kreait\firebase-php\src\Firebase\Database\Query.php on line 92.
+ 1 VENDORPATH\kreait\firebase-php\src\Firebase\Database\Query.php(115): Kreait\Firebase\Database\Query->getSnapshot()
+ 2 APPPATH\Libraries\AdminLib.php(77): Kreait\Firebase\Database\Query->getValue()
+ 3 APPPATH\Controllers\Admin.php(421): App\Libraries\AdminLib::paginationRecord('staff', 1, 3)
+ 4 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Admin->manage()
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 02:08:34 --> Object of class Kreait\Firebase\Database\Snapshot could not be converted to int
+in APPPATH\Libraries\AdminLib.php on line 78.
+ 1 APPPATH\Libraries\AdminLib.php(78): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Object of class Kreait\\Firebase\\Database\\Snapshot could not be converted to int', 'APPPATH\\Libraries\\AdminLib.php', 78, [...])
+ 2 APPPATH\Controllers\Admin.php(421): App\Libraries\AdminLib::paginationRecord('staff', 1, 3)
+ 3 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Admin->manage()
+ 4 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 03:31:35 --> Undefined variable: 5
+in APPPATH\Controllers\Admin.php on line 430.
+ 1 APPPATH\Controllers\Admin.php(430): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: 5', 'APPPATH\\Controllers\\Admin.php', 430, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Admin->manage()
+ 3 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 03:36:02 --> Undefined variable: page
+in APPPATH\Views\admin\dashboard.php on line 365.
+ 1 APPPATH\Views\admin\dashboard.php(365): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: page', 'APPPATH\\Views\\admin\\dashboard.php', 365, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 5 APPPATH\Controllers\Admin.php(443): view('admin/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Admin->manage()
+ 7 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 03:59:32 --> Division by zero
+in APPPATH\Controllers\Admin.php on line 393.
+ 1 APPPATH\Controllers\Admin.php(393): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Division by zero', 'APPPATH\\Controllers\\Admin.php', 393, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Admin->manage()
+ 3 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 04:26:42 --> Undefined variable: end
+in APPPATH\Controllers\Admin.php on line 434.
+ 1 APPPATH\Controllers\Admin.php(434): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: end', 'APPPATH\\Controllers\\Admin.php', 434, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Admin->manage()
+ 3 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-06 04:29:21 --> Use of undefined constant ords - assumed 'ords' (this will throw an Error in a future version of PHP)
+in APPPATH\Controllers\Admin.php on line 407.
+ 1 APPPATH\Controllers\Admin.php(407): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefined constant ords - assumed \'ords\' (this will throw an Error in a future version of PHP)', 'APPPATH\\Controllers\\Admin.php', 407, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Admin->manage()
+ 3 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')

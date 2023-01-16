@@ -1,0 +1,236 @@
+CRITICAL - 2022-11-17 01:43:33 --> Call to undefined method App\Libraries\PatientLib::readData()
+in APPPATH\Controllers\Patient.php on line 60.
+ 1 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Patient->view()
+ 2 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Patient))
+ 3 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-17 02:34:15 --> Undefined variable: typeFilter
+in APPPATH\Controllers\Patient.php on line 59.
+ 1 APPPATH\Controllers\Patient.php(59): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: typeFilter', 'APPPATH\\Controllers\\Patient.php', 59, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Patient->view()
+ 3 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Patient))
+ 4 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-17 02:40:36 --> syntax error, unexpected ')'
+in APPPATH\Controllers\Patient.php on line 67.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Patient.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Patient')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Patient')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Patient')
+ 5 SYSTEMPATH\CodeIgniter.php(860): class_exists('\\App\\Controllers\\Patient', true)
+ 6 SYSTEMPATH\CodeIgniter.php(456): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-17 02:53:38 --> Call to a member function withInput() on string
+in APPPATH\Controllers\Patient.php on line 156.
+ 1 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Patient->view()
+ 2 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Patient))
+ 3 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-17 06:55:31 --> Call to undefined method App\Controllers\Patient::request()
+in APPPATH\Controllers\Patient.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Patient->panel()
+ 2 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Patient))
+ 3 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-17 08:02:31 --> Undefined index: address
+in APPPATH\Views\staff\panel.php on line 127.
+ 1 APPPATH\Views\staff\panel.php(127): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: address', 'APPPATH\\Views\\staff\\panel.php', 127, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\staff\\panel.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('staff/panel', [], true)
+ 5 APPPATH\Controllers\Patient.php(20): view('staff/panel', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Patient->panel()
+ 7 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Patient))
+ 8 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-17 08:03:05 --> Undefined index: postCode
+in APPPATH\Views\staff\panel.php on line 133.
+ 1 APPPATH\Views\staff\panel.php(133): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: postCode', 'APPPATH\\Views\\staff\\panel.php', 133, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\staff\\panel.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('staff/panel', [], true)
+ 5 APPPATH\Controllers\Patient.php(20): view('staff/panel', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Patient->panel()
+ 7 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Patient))
+ 8 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-17 08:17:51 --> Undefined variable: start
+in APPPATH\Libraries\PatientLib.php on line 106.
+ 1 APPPATH\Libraries\PatientLib.php(106): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: start', 'APPPATH\\Libraries\\PatientLib.php', 106, [...])
+ 2 APPPATH\Controllers\Patient.php(15): App\Libraries\PatientLib::readDataByKey('-NH3gVIaRCi3BbAhCw5P')
+ 3 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Patient->panel()
+ 4 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Patient))
+ 5 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-17 08:18:25 --> Undefined variable: record2
+in APPPATH\Libraries\PatientLib.php on line 105.
+ 1 APPPATH\Libraries\PatientLib.php(105): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: record2', 'APPPATH\\Libraries\\PatientLib.php', 105, [...])
+ 2 APPPATH\Controllers\Patient.php(15): App\Libraries\PatientLib::readDataByKey('-NH3gVIaRCi3BbAhCw5P')
+ 3 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Patient->panel()
+ 4 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Patient))
+ 5 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-17 08:18:34 --> Undefined index: name
+in APPPATH\Views\staff\panel.php on line 64.
+ 1 APPPATH\Views\staff\panel.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: name', 'APPPATH\\Views\\staff\\panel.php', 64, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\staff\\panel.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('staff/panel', [], true)
+ 5 APPPATH\Controllers\Patient.php(21): view('staff/panel', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Patient->panel()
+ 7 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Patient))
+ 8 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-17 08:19:59 --> Undefined index: name
+in APPPATH\Views\staff\panel.php on line 64.
+ 1 APPPATH\Views\staff\panel.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: name', 'APPPATH\\Views\\staff\\panel.php', 64, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\staff\\panel.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('staff/panel', [], true)
+ 5 APPPATH\Controllers\Patient.php(21): view('staff/panel', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Patient->panel()
+ 7 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Patient))
+ 8 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-17 08:20:12 --> Undefined index: key
+in APPPATH\Views\staff\panel.php on line 64.
+ 1 APPPATH\Views\staff\panel.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: key', 'APPPATH\\Views\\staff\\panel.php', 64, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\staff\\panel.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('staff/panel', [], true)
+ 5 APPPATH\Controllers\Patient.php(21): view('staff/panel', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Patient->panel()
+ 7 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Patient))
+ 8 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-17 08:20:21 --> Undefined offset: 0
+in APPPATH\Views\staff\panel.php on line 64.
+ 1 APPPATH\Views\staff\panel.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 0', 'APPPATH\\Views\\staff\\panel.php', 64, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\staff\\panel.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('staff/panel', [], true)
+ 5 APPPATH\Controllers\Patient.php(21): view('staff/panel', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Patient->panel()
+ 7 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Patient))
+ 8 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-17 08:20:41 --> Undefined offset: 0
+in APPPATH\Views\staff\panel.php on line 64.
+ 1 APPPATH\Views\staff\panel.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 0', 'APPPATH\\Views\\staff\\panel.php', 64, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\staff\\panel.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('staff/panel', [], true)
+ 5 APPPATH\Controllers\Patient.php(21): view('staff/panel', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Patient->panel()
+ 7 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Patient))
+ 8 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-17 08:23:41 --> Undefined offset: 0
+in APPPATH\Controllers\Patient.php on line 21.
+ 1 APPPATH\Controllers\Patient.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 0', 'APPPATH\\Controllers\\Patient.php', 21, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Patient->panel()
+ 3 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Patient))
+ 4 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-17 08:26:40 --> Undefined index: 
+createdDate
+in APPPATH\Views\staff\panel.php on line 65.
+ 1 APPPATH\Views\staff\panel.php(65): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: 
+createdDate', 'APPPATH\\Views\\staff\\panel.php', 65, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\staff\\panel.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('staff/panel', [], true)
+ 5 APPPATH\Controllers\Patient.php(23): view('staff/panel', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Patient->panel()
+ 7 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Patient))
+ 8 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-17 08:27:22 --> Undefined index: 
+dob
+in APPPATH\Views\staff\panel.php on line 65.
+ 1 APPPATH\Views\staff\panel.php(65): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: 
+dob', 'APPPATH\\Views\\staff\\panel.php', 65, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\staff\\panel.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('staff/panel', [], true)
+ 5 APPPATH\Controllers\Patient.php(23): view('staff/panel', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Patient->panel()
+ 7 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Patient))
+ 8 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-17 08:33:39 --> Undefined index: postcode
+in APPPATH\Views\staff\panel.php on line 139.
+ 1 APPPATH\Views\staff\panel.php(139): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: postcode', 'APPPATH\\Views\\staff\\panel.php', 139, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\staff\\panel.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('staff/panel', [], true)
+ 5 APPPATH\Controllers\Patient.php(23): view('staff/panel', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Patient->panel()
+ 7 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Patient))
+ 8 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-17 21:47:57 --> syntax error, unexpected '}', expecting ';' or ','
+in APPPATH\Views\staff\panel.php on line 156.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('staff/panel', [], true)
+ 3 APPPATH\Controllers\Patient.php(148): view('staff/panel', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Patient->panel()
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Patient))
+ 6 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-17 21:53:19 --> Use of undefined constant selected - assumed 'selected' (this will throw an Error in a future version of PHP)
+in APPPATH\Views\staff\panel.php on line 161.
+ 1 APPPATH\Views\staff\panel.php(161): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefined constant selected - assumed \'selected\' (this will throw an Error in a future version of PHP)', 'APPPATH\\Views\\staff\\panel.php', 161, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\staff\\panel.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('staff/panel', [], true)
+ 5 APPPATH\Controllers\Patient.php(148): view('staff/panel', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Patient->panel()
+ 7 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Patient))
+ 8 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-17 21:59:34 --> Undefined variable: userInfo
+in APPPATH\Controllers\Patient.php on line 124.
+ 1 APPPATH\Controllers\Patient.php(124): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: userInfo', 'APPPATH\\Controllers\\Patient.php', 124, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Patient->update()
+ 3 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Patient))
+ 4 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-17 22:49:55 --> Undefined variable: userInfo
+in APPPATH\Controllers\Patient.php on line 124.
+ 1 APPPATH\Controllers\Patient.php(124): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: userInfo', 'APPPATH\\Controllers\\Patient.php', 124, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Patient->update()
+ 3 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Patient))
+ 4 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-17 22:54:20 --> Undefined variable: data
+in APPPATH\Controllers\Patient.php on line 89.
+ 1 APPPATH\Controllers\Patient.php(89): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data', 'APPPATH\\Controllers\\Patient.php', 89, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Patient->update()
+ 3 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Patient))
+ 4 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')

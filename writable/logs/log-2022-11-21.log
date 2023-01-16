@@ -1,0 +1,175 @@
+CRITICAL - 2022-11-21 11:05:03 --> <!DOCTYPE html>
+<html lang=en>
+  <meta charset=utf-8>
+  <meta name=viewport content="initial-scale=1, minimum-scale=1, width=device-width">
+  <title>Error 502 (Server Error)!!1</title>
+  <style>
+    *{margin:0;padding:0}html,code{font:15px/22px arial,sans-serif}html{background:#fff;color:#222;padding:15px}body{margin:7% auto 0;max-width:390px;min-height:180px;padding:30px 0 15px}* > body{background:url(//www.google.com/images/errors/robot.png) 100% 5px no-repeat;padding-right:205px}p{margin:11px 0 22px;overflow:hidden}ins{color:#777;text-decoration:none}a img{border:0}@media screen and (max-width:772px){body{background:none;margin-top:0;max-width:none;padding-right:0}}#logo{background:url(//www.google.com/images/branding/googlelogo/1x/googlelogo_color_150x54dp.png) no-repeat;margin-left:-5px}@media only screen and (min-resolution:192dpi){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat 0% 0%/100% 100%;-moz-border-image:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) 0}}@media only screen and (-webkit-min-device-pixel-ratio:2){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat;-webkit-background-size:100% 100%}}#logo{display:inline-block;height:54px;width:150px}
+  </style>
+  <a href=//www.google.com/><span id=logo aria-label=Google></span></a>
+  <p><b>502.</b> <ins>That’s an error.</ins>
+  <p>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.  <ins>That’s all we know.</ins>
+
+in VENDORPATH\kreait\firebase-php\src\Firebase\Exception\DatabaseApiExceptionConverter.php on line 65.
+ 1 VENDORPATH\kreait\firebase-php\src\Firebase\Exception\DatabaseApiExceptionConverter.php(32): Kreait\Firebase\Exception\DatabaseApiExceptionConverter->convertGuzzleRequestException(Object(GuzzleHttp\Exception\ServerException))
+ 2 VENDORPATH\kreait\firebase-php\src\Firebase\Database\ApiClient.php(180): Kreait\Firebase\Exception\DatabaseApiExceptionConverter->convertException(Object(GuzzleHttp\Exception\ServerException))
+ 3 VENDORPATH\kreait\firebase-php\src\Firebase\Database\ApiClient.php(40): Kreait\Firebase\Database\ApiClient->requestApi('GET', '/patient')
+ 4 VENDORPATH\kreait\firebase-php\src\Firebase\Database\Reference.php(329): Kreait\Firebase\Database\ApiClient->get('/patient')
+ 5 VENDORPATH\kreait\firebase-php\src\Firebase\Database\Reference.php(296): Kreait\Firebase\Database\Reference->getSnapshot()
+ 6 APPPATH\Helpers\Form_helper.php(230): Kreait\Firebase\Database\Reference->getValue()
+ 7 APPPATH\Views\staff\overview.php(205): getPatientInfoByEmail('-NH3gVIaRCi3BbAhCw5P', 'gender')
+ 8 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\staff\\overview.php')
+ 9 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+10 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('staff/overview', [], true)
+11 APPPATH\Controllers\Queue.php(107): view('staff/overview', [...])
+12 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Queue->manage()
+13 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Queue))
+14 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+16 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-21 11:48:11 --> Unable to connect to the API: cURL error 6: Could not resolve host: oauth2.googleapis.com (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) for https://oauth2.googleapis.com/token
+in VENDORPATH\kreait\firebase-php\src\Firebase\Exception\DatabaseApiExceptionConverter.php on line 36.
+ 1 VENDORPATH\kreait\firebase-php\src\Firebase\Database\ApiClient.php(180): Kreait\Firebase\Exception\DatabaseApiExceptionConverter->convertException(Object(GuzzleHttp\Exception\ConnectException))
+ 2 VENDORPATH\kreait\firebase-php\src\Firebase\Database\ApiClient.php(40): Kreait\Firebase\Database\ApiClient->requestApi('GET', '/queue')
+ 3 VENDORPATH\kreait\firebase-php\src\Firebase\Database\Reference.php(329): Kreait\Firebase\Database\ApiClient->get('/queue')
+ 4 VENDORPATH\kreait\firebase-php\src\Firebase\Database\Reference.php(296): Kreait\Firebase\Database\Reference->getSnapshot()
+ 5 APPPATH\Libraries\QueueLib.php(49): Kreait\Firebase\Database\Reference->getValue()
+ 6 APPPATH\Controllers\Queue.php(99): App\Libraries\QueueLib::readDataWaiting('2022-11-21')
+ 7 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Queue->manage()
+ 8 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Queue))
+ 9 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-21 11:48:11 --> Unable to connect to the API: cURL error 6: Could not resolve host: oauth2.googleapis.com (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) for https://oauth2.googleapis.com/token
+in VENDORPATH\kreait\firebase-php\src\Firebase\Exception\DatabaseApiExceptionConverter.php on line 36.
+ 1 VENDORPATH\kreait\firebase-php\src\Firebase\Database\ApiClient.php(180): Kreait\Firebase\Exception\DatabaseApiExceptionConverter->convertException(Object(GuzzleHttp\Exception\ConnectException))
+ 2 VENDORPATH\kreait\firebase-php\src\Firebase\Database\ApiClient.php(40): Kreait\Firebase\Database\ApiClient->requestApi('GET', '/queue')
+ 3 VENDORPATH\kreait\firebase-php\src\Firebase\Database\Reference.php(329): Kreait\Firebase\Database\ApiClient->get('/queue')
+ 4 VENDORPATH\kreait\firebase-php\src\Firebase\Database\Reference.php(296): Kreait\Firebase\Database\Reference->getSnapshot()
+ 5 APPPATH\Libraries\QueueLib.php(49): Kreait\Firebase\Database\Reference->getValue()
+ 6 APPPATH\Controllers\Queue.php(99): App\Libraries\QueueLib::readDataWaiting('2022-11-21')
+ 7 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Queue->manage()
+ 8 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Queue))
+ 9 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-21 11:49:10 --> Unable to connect to the API: cURL error 6: Could not resolve host: oauth2.googleapis.com (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) for https://oauth2.googleapis.com/token
+in VENDORPATH\kreait\firebase-php\src\Firebase\Exception\DatabaseApiExceptionConverter.php on line 36.
+ 1 VENDORPATH\kreait\firebase-php\src\Firebase\Database\ApiClient.php(180): Kreait\Firebase\Exception\DatabaseApiExceptionConverter->convertException(Object(GuzzleHttp\Exception\ConnectException))
+ 2 VENDORPATH\kreait\firebase-php\src\Firebase\Database\ApiClient.php(40): Kreait\Firebase\Database\ApiClient->requestApi('GET', '/queue')
+ 3 VENDORPATH\kreait\firebase-php\src\Firebase\Database\Reference.php(329): Kreait\Firebase\Database\ApiClient->get('/queue')
+ 4 VENDORPATH\kreait\firebase-php\src\Firebase\Database\Reference.php(296): Kreait\Firebase\Database\Reference->getSnapshot()
+ 5 APPPATH\Libraries\QueueLib.php(49): Kreait\Firebase\Database\Reference->getValue()
+ 6 APPPATH\Controllers\Queue.php(99): App\Libraries\QueueLib::readDataWaiting('2022-11-21')
+ 7 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Queue->manage()
+ 8 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Queue))
+ 9 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-21 11:49:10 --> Unable to connect to the API: cURL error 6: Could not resolve host: oauth2.googleapis.com (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) for https://oauth2.googleapis.com/token
+in VENDORPATH\kreait\firebase-php\src\Firebase\Exception\DatabaseApiExceptionConverter.php on line 36.
+ 1 VENDORPATH\kreait\firebase-php\src\Firebase\Database\ApiClient.php(180): Kreait\Firebase\Exception\DatabaseApiExceptionConverter->convertException(Object(GuzzleHttp\Exception\ConnectException))
+ 2 VENDORPATH\kreait\firebase-php\src\Firebase\Database\ApiClient.php(40): Kreait\Firebase\Database\ApiClient->requestApi('GET', '/queue')
+ 3 VENDORPATH\kreait\firebase-php\src\Firebase\Database\Reference.php(329): Kreait\Firebase\Database\ApiClient->get('/queue')
+ 4 VENDORPATH\kreait\firebase-php\src\Firebase\Database\Reference.php(296): Kreait\Firebase\Database\Reference->getSnapshot()
+ 5 APPPATH\Libraries\QueueLib.php(49): Kreait\Firebase\Database\Reference->getValue()
+ 6 APPPATH\Controllers\Queue.php(99): App\Libraries\QueueLib::readDataWaiting('2022-11-21')
+ 7 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Queue->manage()
+ 8 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Queue))
+ 9 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-21 11:50:10 --> Unable to connect to the API: cURL error 6: Could not resolve host: oauth2.googleapis.com (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) for https://oauth2.googleapis.com/token
+in VENDORPATH\kreait\firebase-php\src\Firebase\Exception\DatabaseApiExceptionConverter.php on line 36.
+ 1 VENDORPATH\kreait\firebase-php\src\Firebase\Database\ApiClient.php(180): Kreait\Firebase\Exception\DatabaseApiExceptionConverter->convertException(Object(GuzzleHttp\Exception\ConnectException))
+ 2 VENDORPATH\kreait\firebase-php\src\Firebase\Database\ApiClient.php(40): Kreait\Firebase\Database\ApiClient->requestApi('GET', '/queue')
+ 3 VENDORPATH\kreait\firebase-php\src\Firebase\Database\Reference.php(329): Kreait\Firebase\Database\ApiClient->get('/queue')
+ 4 VENDORPATH\kreait\firebase-php\src\Firebase\Database\Reference.php(296): Kreait\Firebase\Database\Reference->getSnapshot()
+ 5 APPPATH\Libraries\QueueLib.php(49): Kreait\Firebase\Database\Reference->getValue()
+ 6 APPPATH\Controllers\Queue.php(99): App\Libraries\QueueLib::readDataWaiting('2022-11-21')
+ 7 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Queue->manage()
+ 8 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Queue))
+ 9 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-21 11:50:10 --> Unable to connect to the API: cURL error 6: Could not resolve host: oauth2.googleapis.com (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) for https://oauth2.googleapis.com/token
+in VENDORPATH\kreait\firebase-php\src\Firebase\Exception\DatabaseApiExceptionConverter.php on line 36.
+ 1 VENDORPATH\kreait\firebase-php\src\Firebase\Database\ApiClient.php(180): Kreait\Firebase\Exception\DatabaseApiExceptionConverter->convertException(Object(GuzzleHttp\Exception\ConnectException))
+ 2 VENDORPATH\kreait\firebase-php\src\Firebase\Database\ApiClient.php(40): Kreait\Firebase\Database\ApiClient->requestApi('GET', '/queue')
+ 3 VENDORPATH\kreait\firebase-php\src\Firebase\Database\Reference.php(329): Kreait\Firebase\Database\ApiClient->get('/queue')
+ 4 VENDORPATH\kreait\firebase-php\src\Firebase\Database\Reference.php(296): Kreait\Firebase\Database\Reference->getSnapshot()
+ 5 APPPATH\Libraries\QueueLib.php(49): Kreait\Firebase\Database\Reference->getValue()
+ 6 APPPATH\Controllers\Queue.php(99): App\Libraries\QueueLib::readDataWaiting('2022-11-21')
+ 7 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Queue->manage()
+ 8 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Queue))
+ 9 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-21 22:20:41 --> Class 'App\Controllers\QueueLib' not found
+in APPPATH\Controllers\Queuing.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Queuing->index()
+ 2 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Queuing))
+ 3 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-21 23:31:56 --> Unable to connect to the API: cURL error 28: Operation timed out after 15007 milliseconds with 0 out of 0 bytes received (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) for https://oauth2.googleapis.com/token
+in VENDORPATH\kreait\firebase-php\src\Firebase\Exception\DatabaseApiExceptionConverter.php on line 36.
+ 1 VENDORPATH\kreait\firebase-php\src\Firebase\Database\ApiClient.php(180): Kreait\Firebase\Exception\DatabaseApiExceptionConverter->convertException(Object(GuzzleHttp\Exception\ConnectException))
+ 2 VENDORPATH\kreait\firebase-php\src\Firebase\Database\ApiClient.php(40): Kreait\Firebase\Database\ApiClient->requestApi('GET', '/patient')
+ 3 VENDORPATH\kreait\firebase-php\src\Firebase\Database\Reference.php(329): Kreait\Firebase\Database\ApiClient->get('/patient')
+ 4 VENDORPATH\kreait\firebase-php\src\Firebase\Database\Reference.php(296): Kreait\Firebase\Database\Reference->getSnapshot()
+ 5 APPPATH\Helpers\Form_helper.php(230): Kreait\Firebase\Database\Reference->getValue()
+ 6 APPPATH\Views\staff\overview.php(204): getPatientInfoByEmail('-NH-j-ADiX568ugoY294', 'ic')
+ 7 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\staff\\overview.php')
+ 8 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('staff/overview', [], true)
+10 APPPATH\Controllers\Queue.php(107): view('staff/overview', [...])
+11 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Queue->manage()
+12 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Queue))
+13 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-21 23:33:21 --> cURL error 56: OpenSSL SSL_read: Connection was reset, errno 10054 (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) for https://oauth2.googleapis.com/token
+in VENDORPATH\kreait\firebase-php\src\Firebase\Exception\DatabaseApiExceptionConverter.php on line 65.
+ 1 VENDORPATH\kreait\firebase-php\src\Firebase\Exception\DatabaseApiExceptionConverter.php(32): Kreait\Firebase\Exception\DatabaseApiExceptionConverter->convertGuzzleRequestException(Object(GuzzleHttp\Exception\RequestException))
+ 2 VENDORPATH\kreait\firebase-php\src\Firebase\Database\ApiClient.php(180): Kreait\Firebase\Exception\DatabaseApiExceptionConverter->convertException(Object(GuzzleHttp\Exception\RequestException))
+ 3 VENDORPATH\kreait\firebase-php\src\Firebase\Database\ApiClient.php(40): Kreait\Firebase\Database\ApiClient->requestApi('GET', '/patient')
+ 4 VENDORPATH\kreait\firebase-php\src\Firebase\Database\Reference.php(329): Kreait\Firebase\Database\ApiClient->get('/patient')
+ 5 VENDORPATH\kreait\firebase-php\src\Firebase\Database\Reference.php(296): Kreait\Firebase\Database\Reference->getSnapshot()
+ 6 APPPATH\Helpers\Form_helper.php(230): Kreait\Firebase\Database\Reference->getValue()
+ 7 APPPATH\Views\staff\overview.php(203): getPatientInfoByEmail('-NH-j-ADiX568ugoY294', 'name')
+ 8 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\staff\\overview.php')
+ 9 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+10 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('staff/overview', [], true)
+11 APPPATH\Controllers\Queue.php(107): view('staff/overview', [...])
+12 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Queue->manage()
+13 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Queue))
+14 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+16 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-21 23:33:30 --> cURL error 56: OpenSSL SSL_read: Connection was reset, errno 10054 (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) for https://oauth2.googleapis.com/token
+in VENDORPATH\kreait\firebase-php\src\Firebase\Exception\DatabaseApiExceptionConverter.php on line 65.
+ 1 VENDORPATH\kreait\firebase-php\src\Firebase\Exception\DatabaseApiExceptionConverter.php(32): Kreait\Firebase\Exception\DatabaseApiExceptionConverter->convertGuzzleRequestException(Object(GuzzleHttp\Exception\RequestException))
+ 2 VENDORPATH\kreait\firebase-php\src\Firebase\Database\ApiClient.php(180): Kreait\Firebase\Exception\DatabaseApiExceptionConverter->convertException(Object(GuzzleHttp\Exception\RequestException))
+ 3 VENDORPATH\kreait\firebase-php\src\Firebase\Database\ApiClient.php(40): Kreait\Firebase\Database\ApiClient->requestApi('GET', '/patient')
+ 4 VENDORPATH\kreait\firebase-php\src\Firebase\Database\Reference.php(329): Kreait\Firebase\Database\ApiClient->get('/patient')
+ 5 VENDORPATH\kreait\firebase-php\src\Firebase\Database\Reference.php(296): Kreait\Firebase\Database\Reference->getSnapshot()
+ 6 APPPATH\Helpers\Form_helper.php(230): Kreait\Firebase\Database\Reference->getValue()
+ 7 APPPATH\Views\staff\overview.php(205): getPatientInfoByEmail('-NH-j-ADiX568ugoY294', 'gender')
+ 8 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\staff\\overview.php')
+ 9 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+10 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('staff/overview', [], true)
+11 APPPATH\Controllers\Queue.php(107): view('staff/overview', [...])
+12 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Queue->manage()
+13 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Queue))
+14 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+16 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-21 10:52:45 --> Undefined variable: progressData
+in APPPATH\Controllers\PatientDash.php on line 25.
+ 1 APPPATH\Controllers\PatientDash.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: progressData', 'APPPATH\\Controllers\\PatientDash.php', 25, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\PatientDash->number()
+ 3 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatientDash))
+ 4 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')

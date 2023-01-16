@@ -1,0 +1,163 @@
+CRITICAL - 2022-11-01 20:40:20 --> A non well formed numeric value encountered
+in APPPATH\Views\patientDashboard\appointment.php on line 74.
+ 1 APPPATH\Views\patientDashboard\appointment.php(74): CodeIgniter\Debug\Exceptions->errorHandler(8, 'A non well formed numeric value encountered', 'APPPATH\\Views\\patientDashboard\\appointment.php', 74, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\patientDashboard\\appointment.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('patientDashboard/appointment', [], true)
+ 5 APPPATH\Controllers\Appointment.php(15): view('patientDashboard/appointment', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Appointment->appointment()
+ 7 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Appointment))
+ 8 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-01 21:54:55 --> Undefined variable: today
+in APPPATH\Validation\RegisterRules.php on line 202.
+ 1 APPPATH\Validation\RegisterRules.php(202): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: today', 'APPPATH\\Validation\\RegisterRules.php', 202, [...])
+ 2 SYSTEMPATH\Validation\Validation.php(308): App\Validation\RegisterRules::checkAppDate('2020-11-07', 'appdate', [...], null)
+ 3 SYSTEMPATH\Validation\Validation.php(175): CodeIgniter\Validation\Validation->processRules('appdate', 'appdate', '2020-11-07', [...], [...])
+ 4 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 5 APPPATH\Controllers\Appointment.php(36): CodeIgniter\Controller->validate([...])
+ 6 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Appointment->makeAppointment()
+ 7 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Appointment))
+ 8 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-01 21:55:17 --> Object of class CodeIgniter\Validation\Validation could not be converted to string
+in APPPATH\Controllers\Appointment.php on line 45.
+ 1 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Appointment->makeAppointment()
+ 2 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Appointment))
+ 3 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-01 21:55:33 --> Object of class CodeIgniter\Validation\Validation could not be converted to string
+in APPPATH\Controllers\Appointment.php on line 45.
+ 1 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Appointment->makeAppointment()
+ 2 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Appointment))
+ 3 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-01 22:01:33 --> Trying to access array offset on value of type null
+in APPPATH\Validation\RegisterRules.php on line 220.
+ 1 APPPATH\Validation\RegisterRules.php(220): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH\\Validation\\RegisterRules.php', 220, [...])
+ 2 SYSTEMPATH\Validation\Validation.php(308): App\Validation\RegisterRules::checkAppDateHoliday('2022-11-10', 'appdate', [...], null)
+ 3 SYSTEMPATH\Validation\Validation.php(175): CodeIgniter\Validation\Validation->processRules('appdate', 'appdate', '2022-11-10', [...], [...])
+ 4 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 5 APPPATH\Controllers\Appointment.php(36): CodeIgniter\Controller->validate([...])
+ 6 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Appointment->makeAppointment()
+ 7 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Appointment))
+ 8 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-01 22:02:51 --> Trying to access array offset on value of type null
+in APPPATH\Validation\RegisterRules.php on line 220.
+ 1 APPPATH\Validation\RegisterRules.php(220): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH\\Validation\\RegisterRules.php', 220, [...])
+ 2 SYSTEMPATH\Validation\Validation.php(308): App\Validation\RegisterRules::checkAppDateHoliday('2022-11-10', 'appdate', [...], null)
+ 3 SYSTEMPATH\Validation\Validation.php(175): CodeIgniter\Validation\Validation->processRules('appdate', 'appdate', '2022-11-10', [...], [...])
+ 4 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 5 APPPATH\Controllers\Appointment.php(36): CodeIgniter\Controller->validate([...])
+ 6 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Appointment->makeAppointment()
+ 7 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Appointment))
+ 8 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-01 23:44:58 --> Invalid file: patient/appointment.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('patient/appointment.php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('patient/appointment', [], true)
+ 3 APPPATH\Controllers\Appointment.php(69): view('patient/appointment', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Appointment->makeAppointment()
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Appointment))
+ 6 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-01 23:45:57 --> Undefined property: CodeIgniter\HTTP\RedirectResponse::$back
+in APPPATH\Controllers\Appointment.php on line 69.
+ 1 APPPATH\Controllers\Appointment.php(69): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: CodeIgniter\\HTTP\\RedirectResponse::$back', 'APPPATH\\Controllers\\Appointment.php', 69, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Appointment->makeAppointment()
+ 3 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Appointment))
+ 4 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-01 23:46:09 --> Undefined property: CodeIgniter\HTTP\RedirectResponse::$back
+in APPPATH\Controllers\Appointment.php on line 69.
+ 1 APPPATH\Controllers\Appointment.php(69): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: CodeIgniter\\HTTP\\RedirectResponse::$back', 'APPPATH\\Controllers\\Appointment.php', 69, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Appointment->makeAppointment()
+ 3 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Appointment))
+ 4 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-01 23:48:52 --> Call to undefined function App\Controllers\display_error()
+in APPPATH\Controllers\Appointment.php on line 69.
+ 1 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Appointment->makeAppointment()
+ 2 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Appointment))
+ 3 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-01 20:58:54 --> syntax error, unexpected ')'
+in APPPATH\Controllers\Appointment.php on line 33.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Appointment.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Appointment')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Appointment')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Appointment')
+ 5 SYSTEMPATH\CodeIgniter.php(860): class_exists('\\App\\Controllers\\Appointment', true)
+ 6 SYSTEMPATH\CodeIgniter.php(456): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-01 21:28:23 --> Trying to access array offset on value of type bool
+in APPPATH\Views\patientDashboard\profile.php on line 36.
+ 1 APPPATH\Views\patientDashboard\profile.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type bool', 'APPPATH\\Views\\patientDashboard\\profile.php', 36, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\patientDashboard\\profile.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('patientDashboard/profile', [], true)
+ 5 APPPATH\Controllers\PatientDash.php(313): view('patientDashboard/profile', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\PatientDash->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatientDash))
+ 8 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-01 21:28:45 --> Trying to access array offset on value of type bool
+in APPPATH\Controllers\PatientDash.php on line 304.
+ 1 APPPATH\Controllers\PatientDash.php(304): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type bool', 'APPPATH\\Controllers\\PatientDash.php', 304, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\PatientDash->profile()
+ 3 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatientDash))
+ 4 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-01 21:28:47 --> Trying to access array offset on value of type bool
+in APPPATH\Controllers\PatientDash.php on line 304.
+ 1 APPPATH\Controllers\PatientDash.php(304): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type bool', 'APPPATH\\Controllers\\PatientDash.php', 304, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\PatientDash->profile()
+ 3 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatientDash))
+ 4 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-01 21:30:05 --> Trying to access array offset on value of type bool
+in APPPATH\Controllers\PatientDash.php on line 304.
+ 1 APPPATH\Controllers\PatientDash.php(304): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type bool', 'APPPATH\\Controllers\\PatientDash.php', 304, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\PatientDash->profile()
+ 3 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatientDash))
+ 4 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-01 21:30:13 --> Trying to access array offset on value of type bool
+in APPPATH\Controllers\PatientDash.php on line 304.
+ 1 APPPATH\Controllers\PatientDash.php(304): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type bool', 'APPPATH\\Controllers\\PatientDash.php', 304, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\PatientDash->profile()
+ 3 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatientDash))
+ 4 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-01 21:30:20 --> Trying to access array offset on value of type bool
+in APPPATH\Views\layout\dashboard-layout.php on line 185.
+ 1 APPPATH\Views\layout\dashboard-layout.php(185): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type bool', 'APPPATH\\Views\\layout\\dashboard-layout.php', 185, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\dashboard-layout.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/dashboard-layout', [], true)
+ 5 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('patientDashboard/index', [], true)
+ 6 APPPATH\Controllers\PatientDash.php(298): view('patientDashboard/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\PatientDash->home()
+ 8 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatientDash))
+ 9 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')

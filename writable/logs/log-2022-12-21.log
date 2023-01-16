@@ -1,0 +1,28 @@
+ERROR - 2022-12-21 11:35:18 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): unable to connect to tls://smtp.gmail.com:465 (A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+) in C:\xampp\htdocs\CodeIgniter4-develop\system\Email\Email.php:1850
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): un...', 'C:\\xampp\\htdocs...', 1850, Array)
+#1 C:\xampp\htdocs\CodeIgniter4-develop\system\Email\Email.php(1850): fsockopen('tls://smtp.gmai...', 465, 10060, 'A connection at...', 20)
+#2 C:\xampp\htdocs\CodeIgniter4-develop\system\Email\Email.php(1764): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\CodeIgniter4-develop\system\Email\Email.php(1654): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\CodeIgniter4-develop\system\Email\Email.php(1552): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\CodeIgniter4-develop\app\Controllers\Admin.php(804): CodeIgniter\Email\Email->send()
+#6 C:\xampp\htdocs\CodeIgniter4-develop\system\CodeIgniter.php(910): App\Controllers\Admin->add()
+#7 C:\xampp\htdocs\CodeIgniter4-develop\system\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xampp\htdocs\CodeIgniter4-develop\system\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\CodeIgniter4-develop\public\index.php(55): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\CodeIgniter4-develop\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-12-21 11:39:10 --> Unable to connect to the API: cURL error 28: Connection timed out after 15012 milliseconds (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) for https://online-clinic-demo-default-rtdb.asia-southeast1.firebasedatabase.app/queue.json
+in VENDORPATH\kreait\firebase-php\src\Firebase\Exception\DatabaseApiExceptionConverter.php on line 36.
+ 1 VENDORPATH\kreait\firebase-php\src\Firebase\Database\ApiClient.php(180): Kreait\Firebase\Exception\DatabaseApiExceptionConverter->convertException(Object(GuzzleHttp\Exception\ConnectException))
+ 2 VENDORPATH\kreait\firebase-php\src\Firebase\Database\ApiClient.php(40): Kreait\Firebase\Database\ApiClient->requestApi('GET', '/queue')
+ 3 VENDORPATH\kreait\firebase-php\src\Firebase\Database\Reference.php(329): Kreait\Firebase\Database\ApiClient->get('/queue')
+ 4 VENDORPATH\kreait\firebase-php\src\Firebase\Database\Reference.php(296): Kreait\Firebase\Database\Reference->getSnapshot()
+ 5 APPPATH\Libraries\QueueLib.php(299): Kreait\Firebase\Database\Reference->getValue()
+ 6 APPPATH\Controllers\Checkout.php(419): App\Libraries\QueueLib::readDataBill('2022-12-21')
+ 7 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Checkout->index()
+ 8 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+ 9 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')

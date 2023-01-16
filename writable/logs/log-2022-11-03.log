@@ -1,0 +1,282 @@
+CRITICAL - 2022-11-03 02:30:43 --> Call to undefined function set_select()
+in APPPATH\Views\admin\dashboard.php on line 366.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 4 APPPATH\Controllers\Admin.php(39): view('admin/dashboard', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Admin->manage()
+ 6 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 03:46:55 --> syntax error, unexpected ''checkHomeAddress'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+in APPPATH\Controllers\Admin.php on line 91.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Admin.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Admin')
+ 5 SYSTEMPATH\CodeIgniter.php(860): class_exists('\\App\\Controllers\\Admin', true)
+ 6 SYSTEMPATH\CodeIgniter.php(456): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 03:47:36 --> min is not a valid rule.
+in SYSTEMPATH\Validation\Validation.php on line 316.
+ 1 SYSTEMPATH\Validation\Validation.php(316): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('min')
+ 2 SYSTEMPATH\Validation\Validation.php(175): CodeIgniter\Validation\Validation->processRules('specialist', 'specialist', 'ss', [...], [...])
+ 3 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\Admin.php(56): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Admin->add()
+ 6 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 03:55:20 --> min is not a valid rule.
+in SYSTEMPATH\Validation\Validation.php on line 316.
+ 1 SYSTEMPATH\Validation\Validation.php(316): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('min')
+ 2 SYSTEMPATH\Validation\Validation.php(175): CodeIgniter\Validation\Validation->processRules('specialist', 'specialist', 'dasda', [...], [...])
+ 3 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\Admin.php(77): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Admin->add()
+ 6 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 03:56:53 --> min is not a valid rule.
+in SYSTEMPATH\Validation\Validation.php on line 316.
+ 1 SYSTEMPATH\Validation\Validation.php(316): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('min')
+ 2 SYSTEMPATH\Validation\Validation.php(175): CodeIgniter\Validation\Validation->processRules('specialist', 'specialist', 'dasda', [...], [...])
+ 3 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\Admin.php(77): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Admin->add()
+ 6 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 04:51:41 --> Call to undefined function App\Controllers\display_error()
+in APPPATH\Controllers\Admin.php on line 88.
+ 1 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Admin->add()
+ 2 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 05:39:03 --> Undefined variable: name
+in APPPATH\Views\admin\dashboard.php on line 351.
+ 1 APPPATH\Views\admin\dashboard.php(351): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: name', 'APPPATH\\Views\\admin\\dashboard.php', 351, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 5 APPPATH\Controllers\Admin.php(63): view('admin/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Admin->manage()
+ 7 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 05:52:30 --> Argument 2 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type int or null, array given, called in C:\xampp\htdocs\CodeIgniter4-develop\app\Controllers\Admin.php on line 120
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 32.
+ 1 APPPATH\Controllers\Admin.php(120): CodeIgniter\HTTP\RedirectResponse->to('Admin/manage', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Admin->add()
+ 3 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 05:55:39 --> Array to string conversion
+in APPPATH\Controllers\Admin.php on line 120.
+ 1 APPPATH\Controllers\Admin.php(120): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH\\Controllers\\Admin.php', 120, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Admin->add()
+ 3 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 05:59:03 --> Undefined variable: name
+in APPPATH\Views\admin\dashboard.php on line 354.
+ 1 APPPATH\Views\admin\dashboard.php(354): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: name', 'APPPATH\\Views\\admin\\dashboard.php', 354, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 5 APPPATH\Controllers\Admin.php(63): view('admin/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Admin->manage()
+ 7 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 05:59:50 --> Array to string conversion
+in APPPATH\Views\admin\dashboard.php on line 355.
+ 1 APPPATH\Views\admin\dashboard.php(355): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH\\Views\\admin\\dashboard.php', 355, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 5 APPPATH\Controllers\Admin.php(63): view('admin/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Admin->manage()
+ 7 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 06:03:52 --> Undefined index: ic
+in APPPATH\Views\admin\dashboard.php on line 371.
+ 1 APPPATH\Views\admin\dashboard.php(371): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: ic', 'APPPATH\\Views\\admin\\dashboard.php', 371, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 5 APPPATH\Controllers\Admin.php(63): view('admin/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Admin->manage()
+ 7 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 09:35:18 --> Cannot use App\Libraries\Hash as Hash because the name is already in use
+in APPPATH\Controllers\Admin.php on line 8.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-03 22:46:57 --> Undefined variable: user_info
+in APPPATH\Controllers\Admin.php on line 354.
+ 1 APPPATH\Controllers\Admin.php(354): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: user_info', 'APPPATH\\Controllers\\Admin.php', 354, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Admin->add()
+ 3 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 09:47:20 --> Undefined index: specialist
+in APPPATH\Views\admin\dashboard.php on line 449.
+ 1 APPPATH\Views\admin\dashboard.php(449): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: specialist', 'APPPATH\\Views\\admin\\dashboard.php', 449, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 5 APPPATH\Controllers\Admin.php(76): view('admin/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Admin->manage()
+ 7 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 23:05:30 --> Undefined property: CodeIgniter\Email\Email::$send
+in APPPATH\Controllers\Admin.php on line 385.
+ 1 APPPATH\Controllers\Admin.php(385): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: CodeIgniter\\Email\\Email::$send', 'APPPATH\\Controllers\\Admin.php', 385, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Admin->add()
+ 3 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 23:12:30 --> strpos() expects parameter 1 to be string, object given
+in SYSTEMPATH\Email\Email.php on line 728.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'strpos() expects parameter 1 to be string, object given', 'SYSTEMPATH\\Email\\Email.php', 728, [...])
+ 2 SYSTEMPATH\Email\Email.php(728): strpos(Object(CodeIgniter\Email\Email), ',')
+ 3 SYSTEMPATH\Email\Email.php(541): CodeIgniter\Email\Email->stringToArray(Object(CodeIgniter\Email\Email))
+ 4 APPPATH\Controllers\Admin.php(229): CodeIgniter\Email\Email->setTo(Object(CodeIgniter\Email\Email))
+ 5 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Admin->add()
+ 6 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 23:13:34 --> strpos() expects parameter 1 to be string, object given
+in SYSTEMPATH\Email\Email.php on line 728.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'strpos() expects parameter 1 to be string, object given', 'SYSTEMPATH\\Email\\Email.php', 728, [...])
+ 2 SYSTEMPATH\Email\Email.php(728): strpos(Object(CodeIgniter\Email\Email), ',')
+ 3 SYSTEMPATH\Email\Email.php(541): CodeIgniter\Email\Email->stringToArray(Object(CodeIgniter\Email\Email))
+ 4 APPPATH\Controllers\Admin.php(229): CodeIgniter\Email\Email->setTo(Object(CodeIgniter\Email\Email))
+ 5 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Admin->add()
+ 6 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 23:16:33 --> Object of class CodeIgniter\Email\Email could not be converted to string
+in APPPATH\Controllers\Admin.php on line 229.
+ 1 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Admin->add()
+ 2 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 11:21:10 --> Undefined index: key
+in APPPATH\Controllers\Admin.php on line 19.
+ 1 APPPATH\Controllers\Admin.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: key', 'APPPATH\\Controllers\\Admin.php', 19, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Admin->read()
+ 3 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 11:21:17 --> Undefined index: name
+in APPPATH\Controllers\Admin.php on line 19.
+ 1 APPPATH\Controllers\Admin.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: name', 'APPPATH\\Controllers\\Admin.php', 19, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Admin->read()
+ 3 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 11:21:27 --> Trying to get property 'name' of non-object
+in APPPATH\Controllers\Admin.php on line 19.
+ 1 APPPATH\Controllers\Admin.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'name\' of non-object', 'APPPATH\\Controllers\\Admin.php', 19, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Admin->read()
+ 3 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 11:25:21 --> Illegal string offset 'email'
+in APPPATH\Controllers\Admin.php on line 21.
+ 1 APPPATH\Controllers\Admin.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'email\'', 'APPPATH\\Controllers\\Admin.php', 21, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Admin->read()
+ 3 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 11:37:41 --> array_push() expects parameter 1 to be array, null given
+in APPPATH\Controllers\Admin.php on line 22.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_push() expects parameter 1 to be array, null given', 'APPPATH\\Controllers\\Admin.php', 22, [...])
+ 2 APPPATH\Controllers\Admin.php(22): array_push(null, [...])
+ 3 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Admin->read()
+ 4 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 11:37:49 --> array_push() expects parameter 1 to be array, null given
+in APPPATH\Controllers\Admin.php on line 22.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_push() expects parameter 1 to be array, null given', 'APPPATH\\Controllers\\Admin.php', 22, [...])
+ 2 APPPATH\Controllers\Admin.php(22): array_push(null, '22', '22')
+ 3 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Admin->read()
+ 4 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 11:52:02 --> Undefined variable: employData
+in APPPATH\Views\admin\dashboard.php on line 317.
+ 1 APPPATH\Views\admin\dashboard.php(317): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: employData', 'APPPATH\\Views\\admin\\dashboard.php', 317, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 5 APPPATH\Controllers\Admin.php(67): view('admin/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Admin->index()
+ 7 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 11:57:42 --> Undefined variable: name
+in APPPATH\Views\admin\dashboard.php on line 326.
+ 1 APPPATH\Views\admin\dashboard.php(326): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: name', 'APPPATH\\Views\\admin\\dashboard.php', 326, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 5 APPPATH\Controllers\Admin.php(89): view('admin/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Admin->manage()
+ 7 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 21:16:53 --> Invalid file: admin/manage.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/manage.php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('admin/manage', [], true)
+ 3 APPPATH\Controllers\Admin.php(67): view('admin/manage', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Admin->index()
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 23:52:20 --> Undefined index: coverid
+in APPPATH\Views\admin\dashboard.php on line 341.
+ 1 APPPATH\Views\admin\dashboard.php(341): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: coverid', 'APPPATH\\Views\\admin\\dashboard.php', 341, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 5 APPPATH\Controllers\Admin.php(92): view('admin/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Admin->manage()
+ 7 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')

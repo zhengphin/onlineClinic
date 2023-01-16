@@ -1,0 +1,873 @@
+CRITICAL - 2022-10-28 10:09:45 --> Use of undefined constant base_url - assumed 'base_url' (this will throw an Error in a future version of PHP)
+in APPPATH\Controllers\Auth.php on line 46.
+ 1 APPPATH\Controllers\Auth.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefined constant base_url - assumed \'base_url\' (this will throw an Error in a future version of PHP)', 'APPPATH\\Controllers\\Auth.php', 46, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Auth->emailVertify()
+ 3 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-28 12:01:11 --> A non well formed numeric value encountered
+in APPPATH\Controllers\Auth.php on line 15.
+ 1 APPPATH\Controllers\Auth.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'A non well formed numeric value encountered', 'APPPATH\\Controllers\\Auth.php', 15, [...])
+ 2 APPPATH\Controllers\Auth.php(29): App\Controllers\Auth->checkExpiryDate('2022-10-28 10:45:34')
+ 3 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Auth->reset('-NFMRJ8VdPX3ACeagMVW')
+ 4 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 5 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-28 12:07:14 --> A non well formed numeric value encountered
+in APPPATH\Controllers\Auth.php on line 15.
+ 1 APPPATH\Controllers\Auth.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'A non well formed numeric value encountered', 'APPPATH\\Controllers\\Auth.php', 15, [...])
+ 2 APPPATH\Controllers\Auth.php(33): App\Controllers\Auth->checkExpiryDate('2022-10-28 11:00:34')
+ 3 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Auth->reset('-NFMRJ8VdPX3ACeagMVW')
+ 4 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 5 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-28 12:07:56 --> A non well formed numeric value encountered
+in APPPATH\Controllers\Auth.php on line 15.
+ 1 APPPATH\Controllers\Auth.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'A non well formed numeric value encountered', 'APPPATH\\Controllers\\Auth.php', 15, [...])
+ 2 APPPATH\Controllers\Auth.php(34): App\Controllers\Auth->checkExpiryDate('2022-10-28 11:00:34')
+ 3 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Auth->reset('-NFMRJ8VdPX3ACeagMVW')
+ 4 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 5 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-28 12:07:58 --> A non well formed numeric value encountered
+in APPPATH\Controllers\Auth.php on line 15.
+ 1 APPPATH\Controllers\Auth.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'A non well formed numeric value encountered', 'APPPATH\\Controllers\\Auth.php', 15, [...])
+ 2 APPPATH\Controllers\Auth.php(34): App\Controllers\Auth->checkExpiryDate('2022-10-28 11:00:34')
+ 3 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Auth->reset('-NFMRJ8VdPX3ACeagMVW')
+ 4 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 5 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-28 12:08:01 --> A non well formed numeric value encountered
+in APPPATH\Controllers\Auth.php on line 15.
+ 1 APPPATH\Controllers\Auth.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'A non well formed numeric value encountered', 'APPPATH\\Controllers\\Auth.php', 15, [...])
+ 2 APPPATH\Controllers\Auth.php(34): App\Controllers\Auth->checkExpiryDate('2022-10-28 11:00:34')
+ 3 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Auth->reset('-NFMRJ8VdPX3ACeagMVW')
+ 4 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 5 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-28 12:10:23 --> A non well formed numeric value encountered
+in APPPATH\Controllers\Auth.php on line 18.
+ 1 APPPATH\Controllers\Auth.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'A non well formed numeric value encountered', 'APPPATH\\Controllers\\Auth.php', 18, [...])
+ 2 APPPATH\Controllers\Auth.php(37): App\Controllers\Auth->checkExpiryDate('2022-10-28 11:00:34')
+ 3 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Auth->reset('-NFMRJ8VdPX3ACeagMVW')
+ 4 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 5 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-28 12:10:26 --> A non well formed numeric value encountered
+in APPPATH\Controllers\Auth.php on line 18.
+ 1 APPPATH\Controllers\Auth.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'A non well formed numeric value encountered', 'APPPATH\\Controllers\\Auth.php', 18, [...])
+ 2 APPPATH\Controllers\Auth.php(37): App\Controllers\Auth->checkExpiryDate('2022-10-28 11:00:34')
+ 3 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Auth->reset('-NFMRJ8VdPX3ACeagMVW')
+ 4 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 5 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-28 12:10:57 --> A non well formed numeric value encountered
+in APPPATH\Controllers\Auth.php on line 18.
+ 1 APPPATH\Controllers\Auth.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'A non well formed numeric value encountered', 'APPPATH\\Controllers\\Auth.php', 18, [...])
+ 2 APPPATH\Controllers\Auth.php(37): App\Controllers\Auth->checkExpiryDate('2022-10-28 11:00:34')
+ 3 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Auth->reset('-NFMRJ8VdPX3ACeagMVW')
+ 4 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 5 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-28 12:14:00 --> Class 'App\Controllers\DateTime' not found
+in APPPATH\Controllers\Auth.php on line 13.
+ 1 APPPATH\Controllers\Auth.php(35): App\Controllers\Auth->checkExpiryDate('2022-10-28 11:00:34')
+ 2 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Auth->reset('-NFMRJ8VdPX3ACeagMVW')
+ 3 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-28 12:31:58 --> Invalid file: Auth/reset.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Auth/reset.php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Auth/reset', [], true)
+ 3 APPPATH\Controllers\Auth.php(55): view('Auth/reset', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Auth->reset('-NFMRJ8VdPX3ACeagMVW')
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 6 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-28 12:32:12 --> Invalid file: Auth/reset.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Auth/reset.php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Auth/reset', [], true)
+ 3 APPPATH\Controllers\Auth.php(55): view('Auth/reset', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Auth->reset('-NFMRJ8VdPX3ACeagMVW')
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 6 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-28 12:33:17 --> Invalid file: Auth/reset.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Auth/reset.php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Auth/reset', [], true)
+ 3 APPPATH\Controllers\Auth.php(55): view('Auth/reset', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Auth->reset('-NFMRJ8VdPX3ACeagMVW')
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 6 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-28 12:33:40 --> Invalid file: Auth/reset/-NFMRJ8VdPX3ACeagMVW.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Auth/reset/-NFMRJ8VdPX3ACeagMVW.php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Auth/reset/-NFMRJ8VdPX3ACeagMVW', [], true)
+ 3 APPPATH\Controllers\Auth.php(55): view('Auth/reset/-NFMRJ8VdPX3ACeagMVW', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Auth->reset('-NFMRJ8VdPX3ACeagMVW')
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 6 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-28 12:33:48 --> Invalid file: Auth/reset.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Auth/reset.php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Auth/reset', [], true)
+ 3 APPPATH\Controllers\Auth.php(55): view('Auth/reset', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Auth->reset('-NFMRJ8VdPX3ACeagMVW')
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 6 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-28 12:33:55 --> Invalid file: Auth/reset.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Auth/reset.php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Auth/reset', [], true)
+ 3 APPPATH\Controllers\Auth.php(55): view('Auth/reset', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Auth->reset('-NFMRJ8VdPX3ACeagMVW')
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 6 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-28 13:00:03 --> Argument 2 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type int or null, array given, called in C:\xampp\htdocs\CodeIgniter4-develop\app\Controllers\Auth.php on line 50
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 32.
+ 1 APPPATH\Controllers\Auth.php(50): CodeIgniter\HTTP\RedirectResponse->to('Auth/reset/-NFMRJ8VdPX3ACeagMVW', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Auth->reset('-NFMRJ8VdPX3ACeagMVW')
+ 3 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-28 13:02:22 --> Argument 2 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type int or null, object given, called in C:\xampp\htdocs\CodeIgniter4-develop\app\Controllers\Auth.php on line 50
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 32.
+ 1 APPPATH\Controllers\Auth.php(50): CodeIgniter\HTTP\RedirectResponse->to('Auth/reset/-NFMRJ8VdPX3ACeagMVW', Object(CodeIgniter\Validation\Validation))
+ 2 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Auth->reset('-NFMRJ8VdPX3ACeagMVW')
+ 3 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-28 13:03:52 --> Call to undefined method CodeIgniter\HTTP\RedirectResponse::post()
+in APPPATH\Controllers\Auth.php on line 50.
+ 1 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Auth->reset('-NFMRJ8VdPX3ACeagMVW')
+ 2 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 3 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-28 13:04:15 --> Call to undefined method CodeIgniter\HTTP\RedirectResponse::post()
+in APPPATH\Controllers\Auth.php on line 50.
+ 1 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Auth->reset('-NFMRJ8VdPX3ACeagMVW')
+ 2 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 3 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-28 13:07:18 --> Argument 2 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type int or null, string given, called in C:\xampp\htdocs\CodeIgniter4-develop\app\Controllers\Auth.php on line 50
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 32.
+ 1 APPPATH\Controllers\Auth.php(50): CodeIgniter\HTTP\RedirectResponse->to('Auth/reset/-NFMRJ8VdPX3ACeagMVW', 'validation')
+ 2 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Auth->reset('-NFMRJ8VdPX3ACeagMVW')
+ 3 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-28 13:22:06 --> Too few arguments to function CodeIgniter\HTTP\RedirectResponse::with(), 1 passed in C:\xampp\htdocs\CodeIgniter4-develop\app\Controllers\Auth.php on line 51 and exactly 2 expected
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 134.
+ 1 APPPATH\Controllers\Auth.php(51): CodeIgniter\HTTP\RedirectResponse->with('ROOTPATH\\public')
+ 2 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Auth->reset('-NFMRJ8VdPX3ACeagMVW')
+ 3 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-28 13:26:27 --> syntax error, unexpected 'endif' (T_ENDIF), expecting end of file
+in APPPATH\Views\auth\resetPassword.php on line 53.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('auth/resetPassword', [], true)
+ 3 APPPATH\Controllers\Auth.php(72): view('auth/resetPassword', [])
+ 4 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Auth->reset('-NFMRJ8VdPX3ACeagMVW')
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 6 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-28 13:34:00 --> Undefined property: App\Controllers\Auth::$validation
+in APPPATH\Controllers\Auth.php on line 50.
+ 1 APPPATH\Controllers\Auth.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Auth::$validation', 'APPPATH\\Controllers\\Auth.php', 50, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Auth->reset('-NFMRJ8VdPX3ACeagMVW')
+ 3 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-28 13:34:13 --> Cannot use object of type CodeIgniter\Validation\Validation as array
+in APPPATH\Controllers\Auth.php on line 50.
+ 1 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Auth->reset('-NFMRJ8VdPX3ACeagMVW')
+ 2 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 3 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-28 13:45:25 --> Undefined property: CodeIgniter\HTTP\RedirectResponse::$to
+in APPPATH\Controllers\Auth.php on line 51.
+ 1 APPPATH\Controllers\Auth.php(51): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: CodeIgniter\\HTTP\\RedirectResponse::$to', 'APPPATH\\Controllers\\Auth.php', 51, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Auth->reset('-NFMRJ8VdPX3ACeagMVW')
+ 3 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-28 14:26:49 --> A non well formed numeric value encountered
+in SYSTEMPATH\HTTP\RequestTrait.php on line 217.
+ 1 SYSTEMPATH\HTTP\RequestTrait.php(217): CodeIgniter\Debug\Exceptions->errorHandler(8, 'A non well formed numeric value encountered', 'SYSTEMPATH\\HTTP\\RequestTrait.php', 217, [...])
+ 2 SYSTEMPATH\HTTP\IncomingRequest.php(503): CodeIgniter\HTTP\Request->fetchGlobal('request', 'password', '2y', null)
+ 3 APPPATH\Controllers\Auth.php(60): CodeIgniter\HTTP\IncomingRequest->getVar('password', '2y')
+ 4 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Auth->reset('-NFMRJ8VdPX3ACeagMVW')
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 6 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-28 02:52:33 --> Undefined index: postcode
+in APPPATH\Views\patientDashboard\profile.php on line 58.
+ 1 APPPATH\Views\patientDashboard\profile.php(58): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: postcode', 'APPPATH\\Views\\patientDashboard\\profile.php', 58, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\patientDashboard\\profile.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('patientDashboard/profile', [], true)
+ 5 APPPATH\Controllers\PatientDash.php(23): view('patientDashboard/profile', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\PatientDash->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatientDash))
+ 8 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-28 04:47:42 --> Undefined index: contact
+in APPPATH\Validation\RegisterRules.php on line 57.
+ 1 APPPATH\Validation\RegisterRules.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: contact', 'APPPATH\\Validation\\RegisterRules.php', 57, [...])
+ 2 SYSTEMPATH\Validation\Validation.php(308): App\Validation\RegisterRules->checkExist('0108244650', 'contact,users', [...], null)
+ 3 SYSTEMPATH\Validation\Validation.php(175): CodeIgniter\Validation\Validation->processRules('contact', 'contact', '0108244650', [...], [...])
+ 4 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 5 APPPATH\Controllers\PatientDash.php(17): CodeIgniter\Controller->validate([...])
+ 6 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\PatientDash->updateProfile()
+ 7 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatientDash))
+ 8 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-28 04:49:03 --> Undefined index: contact
+in APPPATH\Validation\RegisterRules.php on line 57.
+ 1 APPPATH\Validation\RegisterRules.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: contact', 'APPPATH\\Validation\\RegisterRules.php', 57, [...])
+ 2 SYSTEMPATH\Validation\Validation.php(308): App\Validation\RegisterRules->checkExist('0108244650', 'contact,users', [...], null)
+ 3 SYSTEMPATH\Validation\Validation.php(175): CodeIgniter\Validation\Validation->processRules('contact', 'contact', '0108244650', [...], [...])
+ 4 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 5 APPPATH\Controllers\PatientDash.php(17): CodeIgniter\Controller->validate([...])
+ 6 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\PatientDash->updateProfile()
+ 7 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatientDash))
+ 8 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-28 04:49:21 --> Undefined variable: userInfo
+in APPPATH\Views\patientDashboard\profile.php on line 18.
+ 1 APPPATH\Views\patientDashboard\profile.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: userInfo', 'APPPATH\\Views\\patientDashboard\\profile.php', 18, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\patientDashboard\\profile.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('patientDashboard/profile', [], true)
+ 5 APPPATH\Controllers\PatientDash.php(58): view('patientDashboard/profile', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\PatientDash->updateProfile()
+ 7 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatientDash))
+ 8 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-28 04:49:52 --> Undefined index: contact
+in APPPATH\Validation\RegisterRules.php on line 57.
+ 1 APPPATH\Validation\RegisterRules.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: contact', 'APPPATH\\Validation\\RegisterRules.php', 57, [...])
+ 2 SYSTEMPATH\Validation\Validation.php(308): App\Validation\RegisterRules->checkExist('0108244650', 'contact,users', [...], null)
+ 3 SYSTEMPATH\Validation\Validation.php(175): CodeIgniter\Validation\Validation->processRules('contact', 'contact', '0108244650', [...], [...])
+ 4 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 5 APPPATH\Controllers\PatientDash.php(17): CodeIgniter\Controller->validate([...])
+ 6 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\PatientDash->updateProfile()
+ 7 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatientDash))
+ 8 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-28 04:50:37 --> Undefined variable: userInfo
+in APPPATH\Views\patientDashboard\profile.php on line 18.
+ 1 APPPATH\Views\patientDashboard\profile.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: userInfo', 'APPPATH\\Views\\patientDashboard\\profile.php', 18, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\patientDashboard\\profile.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('patientDashboard/profile', [], true)
+ 5 APPPATH\Controllers\PatientDash.php(58): view('patientDashboard/profile', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\PatientDash->updateProfile()
+ 7 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatientDash))
+ 8 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-28 04:51:27 --> Undefined index: contact
+in APPPATH\Validation\RegisterRules.php on line 57.
+ 1 APPPATH\Validation\RegisterRules.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: contact', 'APPPATH\\Validation\\RegisterRules.php', 57, [...])
+ 2 SYSTEMPATH\Validation\Validation.php(308): App\Validation\RegisterRules->checkExist('0108244650', 'contact,users', [...], null)
+ 3 SYSTEMPATH\Validation\Validation.php(175): CodeIgniter\Validation\Validation->processRules('contact', 'contact', '0108244650', [...], [...])
+ 4 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 5 APPPATH\Controllers\PatientDash.php(22): CodeIgniter\Controller->validate([...])
+ 6 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\PatientDash->updateProfile()
+ 7 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatientDash))
+ 8 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-28 04:51:36 --> Undefined variable: userInfo
+in APPPATH\Views\patientDashboard\profile.php on line 18.
+ 1 APPPATH\Views\patientDashboard\profile.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: userInfo', 'APPPATH\\Views\\patientDashboard\\profile.php', 18, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\patientDashboard\\profile.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('patientDashboard/profile', [...], true)
+ 5 APPPATH\Controllers\PatientDash.php(63): view('patientDashboard/profile', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\PatientDash->updateProfile()
+ 7 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatientDash))
+ 8 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-28 04:53:35 --> Undefined index: contact
+in APPPATH\Validation\RegisterRules.php on line 57.
+ 1 APPPATH\Validation\RegisterRules.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: contact', 'APPPATH\\Validation\\RegisterRules.php', 57, [...])
+ 2 SYSTEMPATH\Validation\Validation.php(308): App\Validation\RegisterRules->checkExist('0108244650', 'contact,users', [...], null)
+ 3 SYSTEMPATH\Validation\Validation.php(175): CodeIgniter\Validation\Validation->processRules('contact', 'contact', '0108244650', [...], [...])
+ 4 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 5 APPPATH\Controllers\PatientDash.php(22): CodeIgniter\Controller->validate([...])
+ 6 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\PatientDash->updateProfile()
+ 7 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatientDash))
+ 8 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-28 04:53:45 --> Undefined variable: data
+in APPPATH\Controllers\PatientDash.php on line 63.
+ 1 APPPATH\Controllers\PatientDash.php(63): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data', 'APPPATH\\Controllers\\PatientDash.php', 63, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\PatientDash->updateProfile()
+ 3 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatientDash))
+ 4 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-28 04:53:54 --> Undefined variable: userInfo
+in APPPATH\Views\patientDashboard\profile.php on line 18.
+ 1 APPPATH\Views\patientDashboard\profile.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: userInfo', 'APPPATH\\Views\\patientDashboard\\profile.php', 18, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\patientDashboard\\profile.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('patientDashboard/profile', [], true)
+ 5 APPPATH\Controllers\PatientDash.php(63): view('patientDashboard/profile', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\PatientDash->updateProfile()
+ 7 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatientDash))
+ 8 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-28 05:02:32 --> ini_set(): Headers already sent. You cannot change the session module's ini settings at this time
+in SYSTEMPATH\Session\Handlers\FileHandler.php on line 71.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'ini_set(): Headers already sent. You cannot change the session module\'s ini settings at this time', 'SYSTEMPATH\\Session\\Handlers\\FileHandler.php', 71, [...])
+ 2 SYSTEMPATH\Session\Handlers\FileHandler.php(71): ini_set('session.save_path', 'ROOTPATH\\writable\\session')
+ 3 SYSTEMPATH\Config\Services.php(658): CodeIgniter\Session\Handlers\FileHandler->__construct(Object(Config\App), '::1')
+ 4 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::session(Object(Config\App), false)
+ 5 SYSTEMPATH\Config\BaseService.php(194): CodeIgniter\Config\BaseService::__callStatic('session', [...])
+ 6 SYSTEMPATH\Config\Services.php(637): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+ 7 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::session()
+ 8 SYSTEMPATH\Common.php(934): CodeIgniter\Config\BaseService::__callStatic('session', [])
+ 9 APPPATH\Views\home\home.php(50): session()
+10 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home\\home.php')
+11 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('home/home', [], true)
+13 APPPATH\Controllers\Home.php(9): view('home/home')
+14 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Home->index()
+15 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+16 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+18 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-28 05:06:30 --> Use of undefined constant USER_INFO - assumed 'USER_INFO' (this will throw an Error in a future version of PHP)
+in APPPATH\Views\patientDashboard\profile.php on line 18.
+ 1 APPPATH\Views\patientDashboard\profile.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefined constant USER_INFO - assumed \'USER_INFO\' (this will throw an Error in a future version of PHP)', 'APPPATH\\Views\\patientDashboard\\profile.php', 18, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\patientDashboard\\profile.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('patientDashboard/profile', [], true)
+ 5 APPPATH\Controllers\PatientDash.php(80): view('patientDashboard/profile', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\PatientDash->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatientDash))
+ 8 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-28 05:06:46 --> Use of undefined constant USER_INFO - assumed 'USER_INFO' (this will throw an Error in a future version of PHP)
+in APPPATH\Views\patientDashboard\profile.php on line 18.
+ 1 APPPATH\Views\patientDashboard\profile.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefined constant USER_INFO - assumed \'USER_INFO\' (this will throw an Error in a future version of PHP)', 'APPPATH\\Views\\patientDashboard\\profile.php', 18, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\patientDashboard\\profile.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('patientDashboard/profile', [], true)
+ 5 APPPATH\Controllers\PatientDash.php(80): view('patientDashboard/profile', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\PatientDash->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatientDash))
+ 8 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-28 05:22:26 --> Use of undefined constant USER_INFO - assumed 'USER_INFO' (this will throw an Error in a future version of PHP)
+in APPPATH\Views\patientDashboard\profile.php on line 24.
+ 1 APPPATH\Views\patientDashboard\profile.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefined constant USER_INFO - assumed \'USER_INFO\' (this will throw an Error in a future version of PHP)', 'APPPATH\\Views\\patientDashboard\\profile.php', 24, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\patientDashboard\\profile.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('patientDashboard/profile', [], true)
+ 5 APPPATH\Controllers\PatientDash.php(80): view('patientDashboard/profile', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\PatientDash->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatientDash))
+ 8 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-28 05:23:03 --> Use of undefined constant USER_INFO - assumed 'USER_INFO' (this will throw an Error in a future version of PHP)
+in APPPATH\Views\patientDashboard\profile.php on line 53.
+ 1 APPPATH\Views\patientDashboard\profile.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefined constant USER_INFO - assumed \'USER_INFO\' (this will throw an Error in a future version of PHP)', 'APPPATH\\Views\\patientDashboard\\profile.php', 53, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\patientDashboard\\profile.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('patientDashboard/profile', [], true)
+ 5 APPPATH\Controllers\PatientDash.php(80): view('patientDashboard/profile', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\PatientDash->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatientDash))
+ 8 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-28 05:23:18 --> Use of undefined constant USER_INFO - assumed 'USER_INFO' (this will throw an Error in a future version of PHP)
+in APPPATH\Views\patientDashboard\profile.php on line 60.
+ 1 APPPATH\Views\patientDashboard\profile.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefined constant USER_INFO - assumed \'USER_INFO\' (this will throw an Error in a future version of PHP)', 'APPPATH\\Views\\patientDashboard\\profile.php', 60, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\patientDashboard\\profile.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('patientDashboard/profile', [], true)
+ 5 APPPATH\Controllers\PatientDash.php(80): view('patientDashboard/profile', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\PatientDash->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatientDash))
+ 8 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-28 05:23:52 --> Use of undefined constant USER_INFO - assumed 'USER_INFO' (this will throw an Error in a future version of PHP)
+in APPPATH\Views\patientDashboard\profile.php on line 69.
+ 1 APPPATH\Views\patientDashboard\profile.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefined constant USER_INFO - assumed \'USER_INFO\' (this will throw an Error in a future version of PHP)', 'APPPATH\\Views\\patientDashboard\\profile.php', 69, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\patientDashboard\\profile.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('patientDashboard/profile', [], true)
+ 5 APPPATH\Controllers\PatientDash.php(80): view('patientDashboard/profile', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\PatientDash->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatientDash))
+ 8 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-28 05:24:09 --> Use of undefined constant USER_INFO - assumed 'USER_INFO' (this will throw an Error in a future version of PHP)
+in APPPATH\Views\patientDashboard\profile.php on line 76.
+ 1 APPPATH\Views\patientDashboard\profile.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefined constant USER_INFO - assumed \'USER_INFO\' (this will throw an Error in a future version of PHP)', 'APPPATH\\Views\\patientDashboard\\profile.php', 76, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\patientDashboard\\profile.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('patientDashboard/profile', [], true)
+ 5 APPPATH\Controllers\PatientDash.php(80): view('patientDashboard/profile', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\PatientDash->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatientDash))
+ 8 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-28 05:24:26 --> Use of undefined constant USER_INFO - assumed 'USER_INFO' (this will throw an Error in a future version of PHP)
+in APPPATH\Views\patientDashboard\profile.php on line 311.
+ 1 APPPATH\Views\patientDashboard\profile.php(311): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefined constant USER_INFO - assumed \'USER_INFO\' (this will throw an Error in a future version of PHP)', 'APPPATH\\Views\\patientDashboard\\profile.php', 311, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\patientDashboard\\profile.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('patientDashboard/profile', [], true)
+ 5 APPPATH\Controllers\PatientDash.php(80): view('patientDashboard/profile', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\PatientDash->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatientDash))
+ 8 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-28 05:27:02 --> Use of undefined constant USER_INFO - assumed 'USER_INFO' (this will throw an Error in a future version of PHP)
+in APPPATH\Views\patientDashboard\profile.php on line 3.
+ 1 APPPATH\Views\patientDashboard\profile.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefined constant USER_INFO - assumed \'USER_INFO\' (this will throw an Error in a future version of PHP)', 'APPPATH\\Views\\patientDashboard\\profile.php', 3, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\patientDashboard\\profile.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('patientDashboard/profile', [], true)
+ 5 APPPATH\Controllers\PatientDash.php(80): view('patientDashboard/profile', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\PatientDash->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatientDash))
+ 8 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-28 05:27:13 --> Undefined variable: USER_INFO
+in APPPATH\Views\patientDashboard\profile.php on line 3.
+ 1 APPPATH\Views\patientDashboard\profile.php(3): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: USER_INFO', 'APPPATH\\Views\\patientDashboard\\profile.php', 3, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\patientDashboard\\profile.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('patientDashboard/profile', [], true)
+ 5 APPPATH\Controllers\PatientDash.php(80): view('patientDashboard/profile', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\PatientDash->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatientDash))
+ 8 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-28 06:04:24 --> Use of undefined constant USER_INFO - assumed 'USER_INFO' (this will throw an Error in a future version of PHP)
+in APPPATH\Views\patientDashboard\profile.php on line 327.
+ 1 APPPATH\Views\patientDashboard\profile.php(327): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefined constant USER_INFO - assumed \'USER_INFO\' (this will throw an Error in a future version of PHP)', 'APPPATH\\Views\\patientDashboard\\profile.php', 327, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\patientDashboard\\profile.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('patientDashboard/profile', [], true)
+ 5 APPPATH\Controllers\PatientDash.php(80): view('patientDashboard/profile', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\PatientDash->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatientDash))
+ 8 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-28 06:07:10 --> Undefined variable: userInfo
+in APPPATH\Views\patientDashboard\profile.php on line 18.
+ 1 APPPATH\Views\patientDashboard\profile.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: userInfo', 'APPPATH\\Views\\patientDashboard\\profile.php', 18, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\patientDashboard\\profile.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('patientDashboard/profile', [], true)
+ 5 APPPATH\Controllers\PatientDash.php(59): view('patientDashboard/profile', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\PatientDash->updateProfile()
+ 7 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatientDash))
+ 8 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-28 06:17:01 --> Undefined index: contact
+in APPPATH\Validation\RegisterRules.php on line 57.
+ 1 APPPATH\Validation\RegisterRules.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: contact', 'APPPATH\\Validation\\RegisterRules.php', 57, [...])
+ 2 SYSTEMPATH\Validation\Validation.php(308): App\Validation\RegisterRules->checkExist('0108244650', 'contact,users', [...], null)
+ 3 SYSTEMPATH\Validation\Validation.php(175): CodeIgniter\Validation\Validation->processRules('contact', 'contact', '0108244650', [...], [...])
+ 4 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 5 APPPATH\Controllers\Auth.php(164): CodeIgniter\Controller->validate([...])
+ 6 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Auth->save()
+ 7 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-28 06:19:32 --> Undefined index: contact
+in APPPATH\Validation\RegisterRules.php on line 57.
+ 1 APPPATH\Validation\RegisterRules.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: contact', 'APPPATH\\Validation\\RegisterRules.php', 57, [...])
+ 2 SYSTEMPATH\Validation\Validation.php(308): App\Validation\RegisterRules->checkExist('0108244650', 'contact,users', [...], null)
+ 3 SYSTEMPATH\Validation\Validation.php(175): CodeIgniter\Validation\Validation->processRules('contact', 'contact', '0108244650', [...], [...])
+ 4 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 5 APPPATH\Controllers\Auth.php(164): CodeIgniter\Controller->validate([...])
+ 6 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Auth->save()
+ 7 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-28 06:19:41 --> Undefined index: contact
+in APPPATH\Validation\RegisterRules.php on line 57.
+ 1 APPPATH\Validation\RegisterRules.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: contact', 'APPPATH\\Validation\\RegisterRules.php', 57, [...])
+ 2 SYSTEMPATH\Validation\Validation.php(308): App\Validation\RegisterRules->checkExist('0108244650', 'contact,users', [...], null)
+ 3 SYSTEMPATH\Validation\Validation.php(175): CodeIgniter\Validation\Validation->processRules('contact', 'contact', '0108244650', [...], [...])
+ 4 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 5 APPPATH\Controllers\Auth.php(164): CodeIgniter\Controller->validate([...])
+ 6 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Auth->save()
+ 7 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-28 06:20:20 --> Undefined index: contact
+in APPPATH\Validation\RegisterRules.php on line 57.
+ 1 APPPATH\Validation\RegisterRules.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: contact', 'APPPATH\\Validation\\RegisterRules.php', 57, [...])
+ 2 SYSTEMPATH\Validation\Validation.php(308): App\Validation\RegisterRules->checkExist('0108244650', 'contact,users', [...], null)
+ 3 SYSTEMPATH\Validation\Validation.php(175): CodeIgniter\Validation\Validation->processRules('contact', 'contact', '0108244650', [...], [...])
+ 4 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 5 APPPATH\Controllers\Auth.php(164): CodeIgniter\Controller->validate([...])
+ 6 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Auth->save()
+ 7 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-28 06:20:36 --> Undefined index: contact
+in APPPATH\Validation\RegisterRules.php on line 57.
+ 1 APPPATH\Validation\RegisterRules.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: contact', 'APPPATH\\Validation\\RegisterRules.php', 57, [...])
+ 2 SYSTEMPATH\Validation\Validation.php(308): App\Validation\RegisterRules->checkExist('0108244650', 'contact,users', [...], null)
+ 3 SYSTEMPATH\Validation\Validation.php(175): CodeIgniter\Validation\Validation->processRules('contact', 'contact', '0108244650', [...], [...])
+ 4 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 5 APPPATH\Controllers\Auth.php(164): CodeIgniter\Controller->validate([...])
+ 6 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Auth->save()
+ 7 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-28 06:21:12 --> Undefined index: contact
+in APPPATH\Validation\RegisterRules.php on line 57.
+ 1 APPPATH\Validation\RegisterRules.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: contact', 'APPPATH\\Validation\\RegisterRules.php', 57, [...])
+ 2 SYSTEMPATH\Validation\Validation.php(308): App\Validation\RegisterRules->checkExist('0108244650', 'contact,users', [...], null)
+ 3 SYSTEMPATH\Validation\Validation.php(175): CodeIgniter\Validation\Validation->processRules('contact', 'contact', '0108244650', [...], [...])
+ 4 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 5 APPPATH\Controllers\Auth.php(164): CodeIgniter\Controller->validate([...])
+ 6 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Auth->save()
+ 7 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-28 06:21:19 --> Undefined index: contact
+in APPPATH\Validation\RegisterRules.php on line 57.
+ 1 APPPATH\Validation\RegisterRules.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: contact', 'APPPATH\\Validation\\RegisterRules.php', 57, [...])
+ 2 SYSTEMPATH\Validation\Validation.php(308): App\Validation\RegisterRules->checkExist('0108244650', 'contact,users', [...], null)
+ 3 SYSTEMPATH\Validation\Validation.php(175): CodeIgniter\Validation\Validation->processRules('contact', 'contact', '0108244650', [...], [...])
+ 4 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 5 APPPATH\Controllers\Auth.php(164): CodeIgniter\Controller->validate([...])
+ 6 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Auth->save()
+ 7 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-28 06:22:11 --> Undefined index: contact
+in APPPATH\Validation\RegisterRules.php on line 57.
+ 1 APPPATH\Validation\RegisterRules.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: contact', 'APPPATH\\Validation\\RegisterRules.php', 57, [...])
+ 2 SYSTEMPATH\Validation\Validation.php(308): App\Validation\RegisterRules->checkExist('0108244650', 'contact,users', [...], null)
+ 3 SYSTEMPATH\Validation\Validation.php(175): CodeIgniter\Validation\Validation->processRules('contact', 'contact', '0108244650', [...], [...])
+ 4 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 5 APPPATH\Controllers\Auth.php(164): CodeIgniter\Controller->validate([...])
+ 6 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Auth->save()
+ 7 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-28 06:22:34 --> Undefined index: contact
+in APPPATH\Validation\RegisterRules.php on line 57.
+ 1 APPPATH\Validation\RegisterRules.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: contact', 'APPPATH\\Validation\\RegisterRules.php', 57, [...])
+ 2 SYSTEMPATH\Validation\Validation.php(308): App\Validation\RegisterRules->checkExist('0108244650', 'contact,users', [...], null)
+ 3 SYSTEMPATH\Validation\Validation.php(175): CodeIgniter\Validation\Validation->processRules('contact', 'contact', '0108244650', [...], [...])
+ 4 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 5 APPPATH\Controllers\Auth.php(164): CodeIgniter\Controller->validate([...])
+ 6 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Auth->save()
+ 7 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-28 06:22:54 --> Undefined index: contact
+in APPPATH\Validation\RegisterRules.php on line 57.
+ 1 APPPATH\Validation\RegisterRules.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: contact', 'APPPATH\\Validation\\RegisterRules.php', 57, [...])
+ 2 SYSTEMPATH\Validation\Validation.php(308): App\Validation\RegisterRules->checkExist('0108244650', 'contact,users', [...], null)
+ 3 SYSTEMPATH\Validation\Validation.php(175): CodeIgniter\Validation\Validation->processRules('contact', 'contact', '0108244650', [...], [...])
+ 4 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 5 APPPATH\Controllers\Auth.php(164): CodeIgniter\Controller->validate([...])
+ 6 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Auth->save()
+ 7 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-28 06:23:14 --> Undefined index: contact
+in APPPATH\Validation\RegisterRules.php on line 57.
+ 1 APPPATH\Validation\RegisterRules.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: contact', 'APPPATH\\Validation\\RegisterRules.php', 57, [...])
+ 2 SYSTEMPATH\Validation\Validation.php(308): App\Validation\RegisterRules->checkExist('0108244650', 'contact,users', [...], null)
+ 3 SYSTEMPATH\Validation\Validation.php(175): CodeIgniter\Validation\Validation->processRules('contact', 'contact', '0108244650', [...], [...])
+ 4 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 5 APPPATH\Controllers\Auth.php(164): CodeIgniter\Controller->validate([...])
+ 6 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Auth->save()
+ 7 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-28 06:34:17 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::back() must be of the type int or null, string given, called in C:\xampp\htdocs\CodeIgniter4-develop\app\Controllers\PatientDash.php on line 78
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 74.
+ 1 APPPATH\Controllers\PatientDash.php(78): CodeIgniter\HTTP\RedirectResponse->back('http://localhost:8080/patient/updateProfile')
+ 2 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\PatientDash->updateProfile()
+ 3 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatientDash))
+ 4 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-28 06:34:35 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::back() must be of the type int or null, string given, called in C:\xampp\htdocs\CodeIgniter4-develop\app\Controllers\PatientDash.php on line 78
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 74.
+ 1 APPPATH\Controllers\PatientDash.php(78): CodeIgniter\HTTP\RedirectResponse->back('http://localhost:8080/patient/updateProfile')
+ 2 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\PatientDash->updateProfile()
+ 3 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatientDash))
+ 4 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-28 07:10:49 --> syntax error, unexpected '<'
+in APPPATH\Views\patientDashboard\profile.php on line 305.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('patientDashboard/profile', [], true)
+ 3 APPPATH\Controllers\PatientDash.php(101): view('patientDashboard/profile', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\PatientDash->profile()
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatientDash))
+ 6 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-28 08:59:08 --> Array to string conversion
+in APPPATH\Controllers\PatientDash.php on line 18.
+ 1 APPPATH\Controllers\PatientDash.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH\\Controllers\\PatientDash.php', 18, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\PatientDash->updateProfile()
+ 3 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatientDash))
+ 4 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-28 08:59:20 --> Array to string conversion
+in APPPATH\Controllers\PatientDash.php on line 18.
+ 1 APPPATH\Controllers\PatientDash.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH\\Controllers\\PatientDash.php', 18, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\PatientDash->updateProfile()
+ 3 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatientDash))
+ 4 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-28 09:31:58 --> Return value of App\Validation\RegisterRules::checkExistProfile() must be of the type bool, none returned
+in APPPATH\Validation\RegisterRules.php on line 115.
+ 1 SYSTEMPATH\Validation\Validation.php(308): App\Validation\RegisterRules->checkExistProfile('000601081007', 'ic,users,-NFMRJ8VdPX3ACeagMVW', [...], null)
+ 2 SYSTEMPATH\Validation\Validation.php(175): CodeIgniter\Validation\Validation->processRules('identityNum', 'identityNum', '000601081007', [...], [...])
+ 3 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\PatientDash.php(25): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\PatientDash->updateProfile()
+ 6 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatientDash))
+ 7 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-28 11:26:29 --> Use of undefined constant patient - assumed 'patient' (this will throw an Error in a future version of PHP)
+in APPPATH\Controllers\PatientDash.php on line 32.
+ 1 APPPATH\Controllers\PatientDash.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefined constant patient - assumed \'patient\' (this will throw an Error in a future version of PHP)', 'APPPATH\\Controllers\\PatientDash.php', 32, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\PatientDash->uploadImage()
+ 3 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatientDash))
+ 4 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-28 21:11:05 --> Image File is not a valid rule.
+in SYSTEMPATH\Validation\Validation.php on line 316.
+ 1 SYSTEMPATH\Validation\Validation.php(316): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('Image File')
+ 2 SYSTEMPATH\Validation\Validation.php(175): CodeIgniter\Validation\Validation->processRules('avatar', 'avatar', 'image.png', [...], [...])
+ 3 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\PatientDash.php(29): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\PatientDash->uploadImage()
+ 6 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatientDash))
+ 7 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-28 21:11:54 --> Argument 2 passed to CodeIgniter\Validation\FileRules::is_image() must be of the type string, null given, called in C:\xampp\htdocs\CodeIgniter4-develop\system\Validation\Validation.php on line 307
+in SYSTEMPATH\Validation\FileRules.php on line 118.
+ 1 SYSTEMPATH\Validation\Validation.php(307): CodeIgniter\Validation\FileRules->is_image('image.png', null)
+ 2 SYSTEMPATH\Validation\Validation.php(175): CodeIgniter\Validation\Validation->processRules('avatar', 'Image File', 'image.png', [...], [...])
+ 3 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\PatientDash.php(29): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\PatientDash->uploadImage()
+ 6 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatientDash))
+ 7 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-28 21:51:52 --> Undefined variable: title
+in APPPATH\Controllers\PatientDash.php on line 25.
+ 1 APPPATH\Controllers\PatientDash.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: title', 'APPPATH\\Controllers\\PatientDash.php', 25, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\PatientDash->uploadImage()
+ 3 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatientDash))
+ 4 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-28 21:57:14 --> Undefined variable: errors
+in APPPATH\Views\patientDashboard\profile.php on line 26.
+ 1 APPPATH\Views\patientDashboard\profile.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: errors', 'APPPATH\\Views\\patientDashboard\\profile.php', 26, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\patientDashboard\\profile.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('patientDashboard/profile', [], true)
+ 5 APPPATH\Controllers\PatientDash.php(23): view('patientDashboard/profile', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\PatientDash->uploadImage()
+ 7 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatientDash))
+ 8 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-28 23:00:22 --> Call to undefined method Kreait\Firebase\Storage::getReference()
+in APPPATH\Controllers\PatientDash.php on line 45.
+ 1 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\PatientDash->uploadImage()
+ 2 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatientDash))
+ 3 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-28 23:01:23 --> Call to undefined method Kreait\Firebase\Storage::getStorage()
+in APPPATH\Controllers\PatientDash.php on line 45.
+ 1 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\PatientDash->uploadImage()
+ 2 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatientDash))
+ 3 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-28 23:52:43 --> Undefined index: Education_img1x
+in APPPATH\Controllers\PatientDash.php on line 46.
+ 1 APPPATH\Controllers\PatientDash.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: Education_img1x', 'APPPATH\\Controllers\\PatientDash.php', 46, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\PatientDash->uploadImage()
+ 3 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatientDash))
+ 4 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-28 23:53:02 --> Undefined index: Education_img1x
+in APPPATH\Controllers\PatientDash.php on line 47.
+ 1 APPPATH\Controllers\PatientDash.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: Education_img1x', 'APPPATH\\Controllers\\PatientDash.php', 47, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\PatientDash->uploadImage()
+ 3 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatientDash))
+ 4 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-28 23:53:18 --> Cannot use object of type CodeIgniter\HTTP\Files\UploadedFile as array
+in APPPATH\Controllers\PatientDash.php on line 47.
+ 1 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\PatientDash->uploadImage()
+ 2 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatientDash))
+ 3 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-28 23:55:42 --> {
+  "error": {
+    "code": 400,
+    "message": "Invalid bucket name: 'gs://onlineclinic-37b72.appspot.com/userImage'",
+    "errors": [
+      {
+        "message": "Invalid bucket name: 'gs://onlineclinic-37b72.appspot.com/userImage'",
+        "domain": "global",
+        "reason": "invalid"
+      }
+    ]
+  }
+}
+
+in VENDORPATH\google\cloud-core\src\RequestWrapper.php on line 368.
+ 1 VENDORPATH\google\cloud-core\src\RequestWrapper.php(207): Google\Cloud\Core\RequestWrapper->convertToGoogleException(Object(GuzzleHttp\Exception\ClientException))
+ 2 VENDORPATH\google\cloud-core\src\Upload\MultipartUploader.php(44): Google\Cloud\Core\RequestWrapper->send(Object(GuzzleHttp\Psr7\Request), [])
+ 3 VENDORPATH\google\cloud-storage\src\Bucket.php(295): Google\Cloud\Core\Upload\MultipartUploader->upload()
+ 4 APPPATH\Controllers\PatientDash.php(47): Google\Cloud\Storage\Bucket->upload(Object(CodeIgniter\HTTP\Files\UploadedFile), [...])
+ 5 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\PatientDash->uploadImage()
+ 6 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatientDash))
+ 7 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-28 23:56:05 --> {
+  "error": {
+    "code": 400,
+    "message": "Invalid bucket name: 'gs://onlineclinic-37b72.appspot.com'",
+    "errors": [
+      {
+        "message": "Invalid bucket name: 'gs://onlineclinic-37b72.appspot.com'",
+        "domain": "global",
+        "reason": "invalid"
+      }
+    ]
+  }
+}
+
+in VENDORPATH\google\cloud-core\src\RequestWrapper.php on line 368.
+ 1 VENDORPATH\google\cloud-core\src\RequestWrapper.php(207): Google\Cloud\Core\RequestWrapper->convertToGoogleException(Object(GuzzleHttp\Exception\ClientException))
+ 2 VENDORPATH\google\cloud-core\src\Upload\MultipartUploader.php(44): Google\Cloud\Core\RequestWrapper->send(Object(GuzzleHttp\Psr7\Request), [])
+ 3 VENDORPATH\google\cloud-storage\src\Bucket.php(295): Google\Cloud\Core\Upload\MultipartUploader->upload()
+ 4 APPPATH\Controllers\PatientDash.php(47): Google\Cloud\Storage\Bucket->upload(Object(CodeIgniter\HTTP\Files\UploadedFile), [...])
+ 5 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\PatientDash->uploadImage()
+ 6 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatientDash))
+ 7 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-28 23:56:30 --> {
+  "error": {
+    "code": 400,
+    "message": "Invalid bucket name: 'gs://onlineclinic-37b72.appspot.com/'",
+    "errors": [
+      {
+        "message": "Invalid bucket name: 'gs://onlineclinic-37b72.appspot.com/'",
+        "domain": "global",
+        "reason": "invalid"
+      }
+    ]
+  }
+}
+
+in VENDORPATH\google\cloud-core\src\RequestWrapper.php on line 368.
+ 1 VENDORPATH\google\cloud-core\src\RequestWrapper.php(207): Google\Cloud\Core\RequestWrapper->convertToGoogleException(Object(GuzzleHttp\Exception\ClientException))
+ 2 VENDORPATH\google\cloud-core\src\Upload\MultipartUploader.php(44): Google\Cloud\Core\RequestWrapper->send(Object(GuzzleHttp\Psr7\Request), [])
+ 3 VENDORPATH\google\cloud-storage\src\Bucket.php(295): Google\Cloud\Core\Upload\MultipartUploader->upload()
+ 4 APPPATH\Controllers\PatientDash.php(47): Google\Cloud\Storage\Bucket->upload(Object(CodeIgniter\HTTP\Files\UploadedFile), [...])
+ 5 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\PatientDash->uploadImage()
+ 6 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PatientDash))
+ 7 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')

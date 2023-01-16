@@ -1,0 +1,57 @@
+CRITICAL - 2022-12-11 05:52:03 --> Undefined variable: patientkey
+in APPPATH\Controllers\Appointment.php on line 18.
+ 1 APPPATH\Controllers\Appointment.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: patientkey', 'APPPATH\\Controllers\\Appointment.php', 18, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Appointment->createAppointment()
+ 3 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Appointment))
+ 4 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-11 22:56:04 --> strtotime() expects parameter 1 to be string, object given
+in APPPATH\Libraries\ReportLib.php on line 25.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'strtotime() expects parameter 1 to be string, object given', 'APPPATH\\Libraries\\ReportLib.php', 25, [...])
+ 2 APPPATH\Libraries\ReportLib.php(25): strtotime(Object(DateTime))
+ 3 APPPATH\Controllers\Staff.php(939): App\Libraries\ReportLib::almostExpiredInventory()
+ 4 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Staff->home()
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+ 6 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-11 22:56:08 --> strtotime() expects parameter 1 to be string, object given
+in APPPATH\Libraries\ReportLib.php on line 25.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'strtotime() expects parameter 1 to be string, object given', 'APPPATH\\Libraries\\ReportLib.php', 25, [...])
+ 2 APPPATH\Libraries\ReportLib.php(25): strtotime(Object(DateTime))
+ 3 APPPATH\Controllers\Staff.php(939): App\Libraries\ReportLib::almostExpiredInventory()
+ 4 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Staff->home()
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+ 6 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-11 22:57:53 --> strtotime() expects parameter 2 to be int, object given
+in APPPATH\Libraries\ReportLib.php on line 26.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'strtotime() expects parameter 2 to be int, object given', 'APPPATH\\Libraries\\ReportLib.php', 26, [...])
+ 2 APPPATH\Libraries\ReportLib.php(26): strtotime('-30 day', Object(DateTime))
+ 3 APPPATH\Controllers\Staff.php(939): App\Libraries\ReportLib::almostExpiredInventory()
+ 4 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Staff->home()
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+ 6 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-11 22:59:30 --> Undefined variable: date1
+in APPPATH\Libraries\ReportLib.php on line 29.
+ 1 APPPATH\Libraries\ReportLib.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: date1', 'APPPATH\\Libraries\\ReportLib.php', 29, [...])
+ 2 APPPATH\Controllers\Staff.php(939): App\Libraries\ReportLib::almostExpiredInventory()
+ 3 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Staff->home()
+ 4 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+ 5 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-11 23:00:06 --> date_diff() expects parameter 1 to be DateTimeInterface, string given
+in APPPATH\Libraries\ReportLib.php on line 28.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'date_diff() expects parameter 1 to be DateTimeInterface, string given', 'APPPATH\\Libraries\\ReportLib.php', 28, [...])
+ 2 APPPATH\Libraries\ReportLib.php(28): date_diff('2026-07-18', Object(DateTime))
+ 3 APPPATH\Controllers\Staff.php(939): App\Libraries\ReportLib::almostExpiredInventory()
+ 4 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Staff->home()
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+ 6 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')

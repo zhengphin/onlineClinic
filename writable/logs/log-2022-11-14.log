@@ -1,0 +1,50 @@
+CRITICAL - 2022-11-14 22:04:21 --> Undefined variable: userInfo
+in APPPATH\Controllers\Consult.php on line 22.
+ 1 APPPATH\Controllers\Consult.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: userInfo', 'APPPATH\\Controllers\\Consult.php', 22, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Consult->index()
+ 3 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consult))
+ 4 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-14 22:15:25 --> Undefined index: Date
+in APPPATH\Views\patientDashboard\consult.php on line 96.
+ 1 APPPATH\Views\patientDashboard\consult.php(96): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: Date', 'APPPATH\\Views\\patientDashboard\\consult.php', 96, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\patientDashboard\\consult.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('patientDashboard/consult', [], true)
+ 5 APPPATH\Controllers\Consult.php(80): view('patientDashboard/consult', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Consult->index()
+ 7 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consult))
+ 8 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-14 23:16:38 --> Invalid file: patientDashboard/meet?=aa.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('patientDashboard/meet?=aa.php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('patientDashboard/meet?=aa', [], true)
+ 3 APPPATH\Controllers\Consult.php(10): view('patientDashboard/meet?=aa')
+ 4 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Consult->meet()
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consult))
+ 6 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-14 23:16:49 --> Invalid file: patientDashboard/meet?sd.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('patientDashboard/meet?sd.php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('patientDashboard/meet?sd', [], true)
+ 3 APPPATH\Controllers\Consult.php(10): view('patientDashboard/meet?sd')
+ 4 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Consult->meet()
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consult))
+ 6 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-14 23:27:20 --> Invalid file: patientDashboard/meet?sd.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('patientDashboard/meet?sd.php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('patientDashboard/meet?sd', [], true)
+ 3 APPPATH\Controllers\Consult.php(10): view('patientDashboard/meet?sd')
+ 4 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Consult->meet()
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consult))
+ 6 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')

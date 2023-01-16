@@ -1,0 +1,28 @@
+CRITICAL - 2022-11-11 06:28:42 --> Class 'App\Controllers\User' not found
+in APPPATH\Controllers\Payment.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Payment->index()
+ 2 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+ 3 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-11 22:50:56 --> Class 'App\Controllers\AppointmentLib' not found
+in APPPATH\Controllers\Payment.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Payment->index()
+ 2 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+ 3 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-11 22:51:48 --> Class 'App\Libraries\PaymentLib' not found
+in APPPATH\Controllers\Payment.php on line 59.
+ 1 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Payment->index()
+ 2 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+ 3 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-11 22:52:01 --> Call to undefined method App\Libraries\PaymentLib::paginationRecord()
+in APPPATH\Controllers\Payment.php on line 59.
+ 1 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Payment->index()
+ 2 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+ 3 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')

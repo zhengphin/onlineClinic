@@ -1,0 +1,99 @@
+CRITICAL - 2022-12-07 01:13:50 --> Undefined index: subTotal
+in APPPATH\Views\staff\toPayment.php on line 153.
+ 1 APPPATH\Views\staff\toPayment.php(153): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: subTotal', 'APPPATH\\Views\\staff\\toPayment.php', 153, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\staff\\toPayment.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('staff/toPayment', [], true)
+ 5 APPPATH\Controllers\Checkout.php(97): view('staff/toPayment', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Checkout->toPayment()
+ 7 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+ 8 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-07 01:14:33 --> Undefined index: subTotal
+in APPPATH\Views\staff\toPayment.php on line 151.
+ 1 APPPATH\Views\staff\toPayment.php(151): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: subTotal', 'APPPATH\\Views\\staff\\toPayment.php', 151, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\staff\\toPayment.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('staff/toPayment', [], true)
+ 5 APPPATH\Controllers\Checkout.php(97): view('staff/toPayment', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Checkout->toPayment()
+ 7 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+ 8 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-07 06:44:03 --> Invalid file: staff/paymentSucess.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('staff/paymentSucess.php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('staff/paymentSucess', [], true)
+ 3 APPPATH\Controllers\Checkout.php(16): view('staff/paymentSucess')
+ 4 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Checkout->successPay()
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+ 6 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-07 06:44:27 --> Undefined variable: userInfo
+in APPPATH\Views\layout\staffdashboard-layout.php on line 75.
+ 1 APPPATH\Views\layout\staffdashboard-layout.php(75): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: userInfo', 'APPPATH\\Views\\layout\\staffdashboard-layout.php', 75, [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\staffdashboard-layout.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/staffdashboard-layout', [], true)
+ 5 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('staff/paymentSuccess', [], true)
+ 6 APPPATH\Controllers\Checkout.php(16): view('staff/paymentSuccess')
+ 7 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Checkout->successPay()
+ 8 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+ 9 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-07 07:01:23 --> Undefined index: patientkey
+in APPPATH\Controllers\Checkout.php on line 333.
+ 1 APPPATH\Controllers\Checkout.php(333): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: patientkey', 'APPPATH\\Controllers\\Checkout.php', 333, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Checkout->toPayment()
+ 3 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+ 4 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-07 07:09:53 --> Undefined variable: userInfo
+in APPPATH\Controllers\Checkout.php on line 72.
+ 1 APPPATH\Controllers\Checkout.php(72): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: userInfo', 'APPPATH\\Controllers\\Checkout.php', 72, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Checkout->pay()
+ 3 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+ 4 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-07 09:03:58 --> syntax error, unexpected '$row' (T_VARIABLE), expecting ';' or ','
+in APPPATH\Views\staff\receipt.php on line 153.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('staff/receipt', [], true)
+ 3 APPPATH\Controllers\Checkout.php(30): view('staff/receipt', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Checkout->successPay()
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+ 6 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-07 09:35:23 --> Maximum execution time of 60 seconds exceeded
+in VENDORPATH\dompdf\dompdf\src\Helpers.php on line 578.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-07 09:37:04 --> Maximum execution time of 60 seconds exceeded
+in VENDORPATH\dompdf\dompdf\src\Helpers.php on line 578.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-07 09:44:06 --> Call to undefined method Dompdf\Dompdf::set_time_limit()
+in APPPATH\Controllers\Checkout.php on line 34.
+ 1 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Checkout->receipt()
+ 2 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+ 3 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-07 10:20:05 --> Unable to connect to the API: cURL error 6: Could not resolve host: oauth2.googleapis.com (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) for https://oauth2.googleapis.com/token
+in VENDORPATH\kreait\firebase-php\src\Firebase\Exception\DatabaseApiExceptionConverter.php on line 36.
+ 1 VENDORPATH\kreait\firebase-php\src\Firebase\Database\ApiClient.php(180): Kreait\Firebase\Exception\DatabaseApiExceptionConverter->convertException(Object(GuzzleHttp\Exception\ConnectException))
+ 2 VENDORPATH\kreait\firebase-php\src\Firebase\Database\ApiClient.php(40): Kreait\Firebase\Database\ApiClient->requestApi('GET', '/patient')
+ 3 VENDORPATH\kreait\firebase-php\src\Firebase\Database\Reference.php(329): Kreait\Firebase\Database\ApiClient->get('/patient')
+ 4 VENDORPATH\kreait\firebase-php\src\Firebase\Database\Reference.php(296): Kreait\Firebase\Database\Reference->getSnapshot()
+ 5 APPPATH\Libraries\PatientLib.php(11): Kreait\Firebase\Database\Reference->getValue()
+ 6 APPPATH\Controllers\Patient.php(260): App\Libraries\PatientLib::countRecords('patient')
+ 7 SYSTEMPATH\CodeIgniter.php(910): App\Controllers\Patient->view()
+ 8 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Patient))
+ 9 SYSTEMPATH\CodeIgniter.php(352): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
